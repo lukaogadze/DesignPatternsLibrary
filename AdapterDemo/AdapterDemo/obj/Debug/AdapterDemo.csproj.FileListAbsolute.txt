@@ -1,0 +1,15 @@
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\009 - Adapter Pattern\AdapterDemo\AdapterDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\009 - Adapter Pattern\AdapterDemo\AdapterDemo\bin\Debug\Sample.sdf
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\009 - Adapter Pattern\AdapterDemo\AdapterDemo\bin\Debug\AdapterDemo.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\009 - Adapter Pattern\AdapterDemo\AdapterDemo\bin\Debug\AdapterDemo.pdb
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\009 - Adapter Pattern\AdapterDemo\AdapterDemo\obj\Debug\AdapterDemo.dll
+C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\009 - Adapter Pattern\AdapterDemo\AdapterDemo\obj\Debug\AdapterDemo.pdb
+C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\AdapterDemo\AdapterDemo\bin\Debug\Sample.sdf
+C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\AdapterDemo\AdapterDemo\bin\Debug\AdapterDemo.dll
+C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\AdapterDemo\AdapterDemo\bin\Debug\AdapterDemo.pdb
+C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\AdapterDemo\AdapterDemo\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\AdapterDemo\AdapterDemo\obj\Debug\AdapterDemo.csprojAssemblyReference.cache
+C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\AdapterDemo\AdapterDemo\obj\Debug\AdapterDemo.csproj.CoreCompileInputs.cache
+C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\AdapterDemo\AdapterDemo\obj\Debug\AdapterDemo.csproj.CopyComplete
+C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\AdapterDemo\AdapterDemo\obj\Debug\AdapterDemo.dll
+C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\AdapterDemo\AdapterDemo\obj\Debug\AdapterDemo.pdb

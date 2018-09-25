@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7592965a-40ea-4335-91f2-138a1f1b3579" name="Steve@STEVEIBPDESKTOP 2011-01-02 15:35:59" runUser="SteveIBPDesktop\Steve" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e6a1fc17-02fa-4e07-98e5-acabec48e8d3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steve_STEVEIBPDESKTOP 2011-01-02 15_35_59" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-01-02T15:35:59.8289219-05:00" queuing="2011-01-02T15:36:00.0623203-05:00" start="2011-01-02T15:36:00.2390782-05:00" finish="2011-01-02T15:36:16.5740391-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RenderTwoRowsGivenSqlClientDataAdapter" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\009 - adapter pattern\adapterdemo\adapterdemo\bin\debug\adapterdemo.dll" id="9cc20382-89e1-ff79-db4f-324e481aedb1">
+      <Execution timeOut="1800000" id="a7173fef-b8db-497f-b882-ffb90399682a" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/009 - Adapter Pattern/AdapterDemo/AdapterDemo/bin/Debug/AdapterDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdapterDemo.PatternRendererShould, AdapterDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RenderTwoRowsGivenSqlClientDataAdapter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9cc20382-89e1-ff79-db4f-324e481aedb1" executionId="a7173fef-b8db-497f-b882-ffb90399682a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a7173fef-b8db-497f-b882-ffb90399682a" testId="9cc20382-89e1-ff79-db4f-324e481aedb1" testName="RenderTwoRowsGivenSqlClientDataAdapter" computerName="STEVEIBPDESKTOP" duration="00:00:16.1758039" startTime="2011-01-02T15:36:00.2742344-05:00" endTime="2011-01-02T15:36:16.5066563-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7173fef-b8db-497f-b882-ffb90399682a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AdapterDemo.PatternRendererShould.RenderTwoRowsGivenSqlClientDataAdapter threw exception: 
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AdapterDemo.Model.PatternRenderer.Render(TextWriter writer) in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\009 - Adapter Pattern\AdapterDemo\AdapterDemo\Model\PatternRenderer.cs:line 21
+   at AdapterDemo.PatternRendererShould.RenderTwoRowsGivenSqlClientDataAdapter() in C:\Users\Steve\Documents\My Dropbox\PluralsightCurrent\009 - Adapter Pattern\AdapterDemo\AdapterDemo\PatternRendererShould.cs:line 59
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

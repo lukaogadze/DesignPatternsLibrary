@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDemo", "AdapterDemo\AdapterDemo.csproj", "{04AF552C-D8EC-4C4C-A51E-B0E24537370B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{038FEAF1-219E-4254-B4D8-235B1054DBBC}"
+	ProjectSection(SolutionItems) = preProject
+		AdapterDemo.vsmdi = AdapterDemo.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AdapterDemo.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04AF552C-D8EC-4C4C-A51E-B0E24537370B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AF552C-D8EC-4C4C-A51E-B0E24537370B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AF552C-D8EC-4C4C-A51E-B0E24537370B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AF552C-D8EC-4C4C-A51E-B0E24537370B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

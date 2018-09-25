@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\loghadze\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\loghadze\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_AdapterDemo.-1822513599.00" t="ExcludeRecursive" />
+    <e p="C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\AdapterDemo" t="IncludeFlat">
+      <e p="AdapterDemo" t="IncludeRecursive">
+        <e p="AdapterDemo.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataRendererShould.cs" t="Include" />
+        <e p="Library" t="Include">
+          <e p="DataRenderer.cs" t="Include" />
+        </e>
+        <e p="Model" t="Include">
+          <e p="Pattern.cs" t="Include" />
+          <e p="PatternRenderer.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PatternRendererShould.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Sample.sdf" t="Include" />
+        <e p="Test" t="Include">
+          <e p="StubDbAdapter.cs" t="Include" />
+        </e>
+      </e>
+      <e p="AdapterDemo.sln" t="IncludeFlat" />
+      <e p="AdapterDemo.vsmdi" t="Include" />
+      <e p="Local.testsettings" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Solution Items" t="Include" />
+      <e p="TraceAndTestImpact.testsettings" t="Include" />
+    </e>
+  </component>
+</project>

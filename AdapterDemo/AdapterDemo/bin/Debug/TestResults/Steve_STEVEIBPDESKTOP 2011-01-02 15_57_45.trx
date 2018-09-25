@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c1b31473-d53a-4284-abbf-6b4611ec8446" name="Steve@STEVEIBPDESKTOP 2011-01-02 15:57:45" runUser="SteveIBPDesktop\Steve" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e6a1fc17-02fa-4e07-98e5-acabec48e8d3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steve_STEVEIBPDESKTOP 2011-01-02 15_57_45" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-01-02T15:57:45.4021641-05:00" queuing="2011-01-02T15:57:45.6297032-05:00" start="2011-01-02T15:57:45.7976719-05:00" finish="2011-01-02T15:57:46.1277500-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RenderTwoRowsGivenOleDbDataAdapter" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\009 - adapter pattern\adapterdemo\adapterdemo\bin\debug\adapterdemo.dll" id="34ccdd56-52b7-929b-a031-57a17315043d">
+      <Execution timeOut="1800000" id="4bf06c37-ee34-477c-a475-dbcfaa43203c" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/009 - Adapter Pattern/AdapterDemo/AdapterDemo/bin/Debug/AdapterDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdapterDemo.DataRendererShould, AdapterDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RenderTwoRowsGivenOleDbDataAdapter" />
+    </UnitTest>
+    <UnitTest name="RenderOneRowGivenStubDataAdapter" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\009 - adapter pattern\adapterdemo\adapterdemo\bin\debug\adapterdemo.dll" id="d481e579-8c80-a322-b33b-6e2da07cac96">
+      <Execution timeOut="1800000" id="c10007d7-6ac6-486e-8fba-a14183f98843" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/009 - Adapter Pattern/AdapterDemo/AdapterDemo/bin/Debug/AdapterDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdapterDemo.DataRendererShould, AdapterDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RenderOneRowGivenStubDataAdapter" />
+    </UnitTest>
+    <UnitTest name="RenderOnePattern" storage="c:\users\steve\documents\my dropbox\pluralsightcurrent\009 - adapter pattern\adapterdemo\adapterdemo\bin\debug\adapterdemo.dll" id="9d133ea7-e5a1-e079-1004-6003d57d9a23">
+      <Execution timeOut="1800000" id="94a2ba91-6b99-4a7c-affc-ae6612ca4b68" />
+      <TestMethod codeBase="C:/Users/Steve/Documents/My Dropbox/PluralsightCurrent/009 - Adapter Pattern/AdapterDemo/AdapterDemo/bin/Debug/AdapterDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AdapterDemo.PatternRendererShould, AdapterDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RenderOnePattern" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d481e579-8c80-a322-b33b-6e2da07cac96" executionId="c10007d7-6ac6-486e-8fba-a14183f98843" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34ccdd56-52b7-929b-a031-57a17315043d" executionId="4bf06c37-ee34-477c-a475-dbcfaa43203c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d133ea7-e5a1-e079-1004-6003d57d9a23" executionId="94a2ba91-6b99-4a7c-affc-ae6612ca4b68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c10007d7-6ac6-486e-8fba-a14183f98843" testId="d481e579-8c80-a322-b33b-6e2da07cac96" testName="RenderOneRowGivenStubDataAdapter" computerName="STEVEIBPDESKTOP" duration="00:00:00.0249518" startTime="2011-01-02T15:57:45.8386875-05:00" endTime="2011-01-02T15:57:45.9177891-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c10007d7-6ac6-486e-8fba-a14183f98843">
+      <Output>
+        <StdOut>Rendering Data:
+             Id            Name     Description 
+              1         Adapter Adapter Description</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4bf06c37-ee34-477c-a475-dbcfaa43203c" testId="34ccdd56-52b7-929b-a031-57a17315043d" testName="RenderTwoRowsGivenOleDbDataAdapter" computerName="STEVEIBPDESKTOP" duration="00:00:00.1369435" startTime="2011-01-02T15:57:45.9207188-05:00" endTime="2011-01-02T15:57:46.0593907-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bf06c37-ee34-477c-a475-dbcfaa43203c">
+      <Output>
+        <StdOut>Rendering Data:
+             ID            Name     Description 
+              1       Singleton There can be only one. 
+              2         Adapter    Make it fit.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="94a2ba91-6b99-4a7c-affc-ae6612ca4b68" testId="9d133ea7-e5a1-e079-1004-6003d57d9a23" testName="RenderOnePattern" computerName="STEVEIBPDESKTOP" duration="00:00:00.0030941" startTime="2011-01-02T15:57:46.0603672-05:00" endTime="2011-01-02T15:57:46.0642735-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94a2ba91-6b99-4a7c-affc-ae6612ca4b68">
+      <Output>
+        <StdOut>Rendering Data:
+             Id            Name     Description 
+              1     Pattern One Pattern One Description 
+              2     Pattern Two Pattern Two Description</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
