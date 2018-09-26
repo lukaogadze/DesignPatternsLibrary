@@ -1,6 +1,0 @@
-C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\BridgeExample\Bridge.ConsoleApp\bin\Debug\Bridge.ConsoleApp.exe
-C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\BridgeExample\Bridge.ConsoleApp\bin\Debug\Bridge.ConsoleApp.pdb
-C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\BridgeExample\Bridge.ConsoleApp\obj\Debug\Bridge.ConsoleApp.csprojAssemblyReference.cache
-C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\BridgeExample\Bridge.ConsoleApp\obj\Debug\Bridge.ConsoleApp.csproj.CoreCompileInputs.cache
-C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\BridgeExample\Bridge.ConsoleApp\obj\Debug\Bridge.ConsoleApp.exe
-C:\Users\loghadze\RiderProjects\DesignPatternsLibrary\BridgeExample\Bridge.ConsoleApp\obj\Debug\Bridge.ConsoleApp.pdb
