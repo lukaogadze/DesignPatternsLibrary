@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" dslVersion="1.0.0.0" Id="dc775a60-e2e2-4c54-b8e6-b6c670204f15" name="facade" linkedPackageId="7592da49-242d-4daf-b86b-12ead28ac7e3" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="d4266a0b-9c63-4b17-a9d9-54b64e68a2d4">
+      <profileInstance Id="815f0356-9e56-42f4-801e-13c6c9cc6750" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ed6597c5-4ce6-4713-97f8-bf2740bbc9bd">
+      <profileInstance Id="4240c3b6-826c-42d3-a718-d5fa3239fda0" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="2e05a0e5-5aaf-4738-b4f9-2b783b43e837" name="Existing API A">
+        <elementDefinition Id="1b0bca58-4b4f-4dc5-a76a-78b7f59fb62e" />
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <packageHasNamedElement>
+      <package Id="fb0a91df-81d8-4751-b7bd-7d0b1a25d3fe" name="Existing API B">
+        <elementDefinition Id="c2abdd8f-7c67-4b80-ba94-8aee3d0c70db" />
+      </package>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="5c2bb7bb-78db-441d-97bd-f4e4155514bb" name="Existing API C">
+        <elementDefinition Id="c7e9fda6-6a5e-4591-97d8-5f250e9e8c6e" />
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="af945149-228f-4a65-905f-74355ec7c400" name="Facade API">
+        <elementDefinition Id="8dec8633-f106-431d-a1b0-a7828119d7bc" />
+        <importedPackagesInternal>
+          <packageImport Id="8f67a679-bfa5-47a5-b280-47109555619a" visibility="Public">
+            <packageMoniker Id="2e05a0e5-5aaf-4738-b4f9-2b783b43e837" LastKnownName="Existing API A" />
+            <elementDefinition Id="eceb5c0d-f4d2-4b0a-bb2e-685a2e7aea49" />
+          </packageImport>
+          <packageImport Id="94c5048b-ab00-4542-b5d7-58231bf307a2" visibility="Public">
+            <packageMoniker Id="fb0a91df-81d8-4751-b7bd-7d0b1a25d3fe" LastKnownName="Existing API B" />
+            <elementDefinition Id="7074d83e-4f8f-4fe6-affa-5387b0d5f294" />
+          </packageImport>
+          <packageImport Id="dcb77d07-12fc-4c1e-bdec-23351cc78c00" visibility="Public">
+            <packageMoniker Id="5c2bb7bb-78db-441d-97bd-f4e4155514bb" LastKnownName="Existing API C" />
+            <elementDefinition Id="c2e98fda-2670-4c7e-a691-d69ba7b3644b" />
+          </packageImport>
+        </importedPackagesInternal>
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="8575524a-6c17-4a61-89a1-edd77f797763" name="Facade" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="40543a0f-4cf2-4306-8b4a-9e1b1c861e91" />
+              <suppliersInternal>
+                <dependency Id="3a38dced-928a-4f7a-b082-ec328b4cd80a">
+                  <classMoniker Id="0ddfed7a-1369-46bb-b3f0-6cd6cae3b8b5" LastKnownName="FacadeHelperClass" />
+                  <elementDefinition Id="f83ba4af-f542-4019-9b4f-99e43c92bec4" />
+                </dependency>
+              </suppliersInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="0ddfed7a-1369-46bb-b3f0-6cd6cae3b8b5" name="FacadeHelperClass" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="c70533ea-16e7-4264-b61d-c66f6daa3e92" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+  </packagedElements>
+  <package Id="7592da49-242d-4daf-b86b-12ead28ac7e3" name="Model">
+    <elementDefinition Id="b930ccf8-98c6-4c8c-ab4b-0d74484c5b35" />
+  </package>
+</logicalClassDesignerModel>

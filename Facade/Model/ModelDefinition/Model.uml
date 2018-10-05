@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b930ccf8-98c6-4c8c-ab4b-0d74484c5b35"
+  name="Model" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1b0bca58-4b4f-4dc5-a76a-78b7f59fb62e"
+        LastKnownName="Existing API A"
+        LastKnownLocation="Package_1235.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e0d3ab63-db56-406e-bf2c-0b291276268c"
+        name="Facade"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="65731548-edbf-41cf-9713-4bb20e868455">
+            <packageMoniker
+              Id="1b0bca58-4b4f-4dc5-a76a-78b7f59fb62e"
+              LastKnownName="Existing API A"
+              LastKnownLocation="Package_1235.uml" />
+          </dependency>
+          <dependency
+            Id="7a0bd2e9-a148-4759-81a4-152a84cb3664">
+            <packageMoniker
+              Id="c2abdd8f-7c67-4b80-ba94-8aee3d0c70db"
+              LastKnownName="Existing API B"
+              LastKnownLocation="Package_1239.uml" />
+          </dependency>
+          <dependency
+            Id="e1784504-3117-4a2b-9582-5e1b6c9108f0">
+            <packageMoniker
+              Id="c7e9fda6-6a5e-4591-97d8-5f250e9e8c6e"
+              LastKnownName="Existing API C"
+              LastKnownLocation="Package1_1239.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="da522832-1f0b-4c16-9dc8-7def8c4327e6"
+            name="DoSomething"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c7e9fda6-6a5e-4591-97d8-5f250e9e8c6e"
+        LastKnownName="Existing API C"
+        LastKnownLocation="Package1_1239.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8dec8633-f106-431d-a1b0-a7828119d7bc"
+        LastKnownName="Facade API"
+        LastKnownLocation="Package_1242.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ddb4817b-461e-45dd-bbcf-7aedce0f65e0"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8dec8633-f106-431d-a1b0-a7828119d7bc"
+  name="Facade API" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <importedPackagesInternal>
+    <packageImport
+      Id="eceb5c0d-f4d2-4b0a-bb2e-685a2e7aea49"
+      visibility="Public">
+      <packageMoniker
+        Id="1b0bca58-4b4f-4dc5-a76a-78b7f59fb62e"
+        LastKnownName="Existing API A"
+        LastKnownLocation="Package_1235.uml" />
+    </packageImport>
+    <packageImport
+      Id="7074d83e-4f8f-4fe6-affa-5387b0d5f294"
+      visibility="Public">
+      <packageMoniker
+        Id="c2abdd8f-7c67-4b80-ba94-8aee3d0c70db"
+        LastKnownName="Existing API B"
+        LastKnownLocation="Package_1239.uml" />
+    </packageImport>
+    <packageImport
+      Id="c2e98fda-2670-4c7e-a691-d69ba7b3644b"
+      visibility="Public">
+      <packageMoniker
+        Id="c7e9fda6-6a5e-4591-97d8-5f250e9e8c6e"
+        LastKnownName="Existing API C"
+        LastKnownLocation="Package1_1239.uml" />
+    </packageImport>
+  </importedPackagesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="40543a0f-4cf2-4306-8b4a-9e1b1c861e91"
+        name="Facade"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="f83ba4af-f542-4019-9b4f-99e43c92bec4">
+            <classMoniker
+              Id="c70533ea-16e7-4264-b61d-c66f6daa3e92"
+              LastKnownName="FacadeHelperClass"
+              LastKnownLocation="Package_1242.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c70533ea-16e7-4264-b61d-c66f6daa3e92"
+        name="FacadeHelperClass"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
