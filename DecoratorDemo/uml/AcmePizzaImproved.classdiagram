@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="8440b827-934f-4552-8fde-2d5d62ec40a0" name="Acme Pizza Improved" linkedPackageId="f7815373-ad0b-45d3-81c6-48e06b3f36a9" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="40abfc02-c0a7-43cc-9486-388cba215c82" name="Pizza" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e12ce008-d6be-4645-abe5-6813f7ba3415" />
+        <ownedAttributesInternal>
+          <property Id="a24af18a-b898-4a2d-826a-6264617d7eba" name="Description" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d298b9ed-5e90-4aef-bdcb-8f9cd042ad62" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="ec79a376-23e8-4011-a398-087ee2be759d" name="CalculateCost" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a3b6663d-f2b3-4e2f-9529-270577f7697f" />
+          </operation>
+          <operation Id="59cb029f-bf44-4157-9895-e63a8338bde6" name="GetDescription" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6d381a6b-e42f-424c-9ffa-738f6be37901" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0fdc59ec-3c19-4596-bcdc-87d966d55ad6" name="LargePizza" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2d5e239c-2e39-4e89-93d2-c0d82556192c" />
+        <generalsInternal>
+          <generalization Id="d0ff6b05-f046-4fa3-a774-d2db84558839" isSubstitutable="false">
+            <classMoniker Id="40abfc02-c0a7-43cc-9486-388cba215c82" LastKnownName="Pizza" />
+            <elementDefinition Id="dd8ef264-bc05-4b1c-bdbf-b0f0af480440" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="8a0ac4ff-c173-4df0-8cce-e3a9e8fd9207" name="CalculateCost" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="91e09bfc-aa23-465d-99d6-396030d57571" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0cc8b7cf-7bd7-432e-b62d-4eb68aed5efc" name="PizzaDecorator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3d32d05a-514a-41a1-9d4f-c98451a0a01e" />
+        <generalsInternal>
+          <generalization Id="ae0ab0f9-61f2-469a-a815-cc9739ca211b" isSubstitutable="false">
+            <classMoniker Id="40abfc02-c0a7-43cc-9486-388cba215c82" LastKnownName="Pizza" />
+            <elementDefinition Id="c3bac6b7-4d8e-45d7-b3bc-89eba1e3af25" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="d055401f-08fc-4037-8b37-61ae3a1580f1" name="Pizza" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cb8f3d42-d6e7-4ab5-a730-d206fb7f3823" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2f64af12-a775-47a9-9249-7826415d327a" name="Cheese" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d2269fd9-5b0a-427d-af78-9ad52f560ec5" />
+        <generalsInternal>
+          <generalization Id="4c0b8577-7dc7-496a-8cb1-5f7efa699d3c" isSubstitutable="false">
+            <classMoniker Id="0cc8b7cf-7bd7-432e-b62d-4eb68aed5efc" LastKnownName="PizzaDecorator" />
+            <elementDefinition Id="606efde6-1832-427b-889d-6236d621ed30" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="559a6f18-978c-47ef-981e-768dd634a35e" name="CalculateCost" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a751f055-4533-4318-b064-f1a167512790" />
+          </operation>
+          <operation Id="b381b008-f597-4555-83c3-eddfa6ed8218" name="GetDescription" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e4ac642c-cac1-41f4-a383-60a81aa863c9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a1623aa8-66c4-46ad-ac18-85fc7b7c6214" name="Ham" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3f5ac2b7-07ce-47f6-bacb-f60c6650069f" />
+        <generalsInternal>
+          <generalization Id="f932facb-e67c-4994-b9ee-deb0796ccde1" isSubstitutable="false">
+            <classMoniker Id="0cc8b7cf-7bd7-432e-b62d-4eb68aed5efc" LastKnownName="PizzaDecorator" />
+            <elementDefinition Id="b32b6f51-fd60-4a4b-8224-11e8dab586a9" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="b4af90c8-fb7a-4437-a388-73a3b5c39342" name="CalculateCost" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6a36a1ff-ebd4-4d70-9ac8-f6d000b09d5b" />
+          </operation>
+          <operation Id="5b04c21c-00e1-4de7-8aa2-2d17fd9b471c" name="GetDescription" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f8b6cf29-e2ad-423d-9447-9c927605131f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="488c56fd-f808-4cd0-b084-852c828eae85" name="MediumPizza" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="576294cb-1c0f-4038-b8ad-317533252d56" />
+        <generalsInternal>
+          <generalization Id="089090a9-cfc2-4be2-9a25-db67590068b8" isSubstitutable="false">
+            <classMoniker Id="40abfc02-c0a7-43cc-9486-388cba215c82" LastKnownName="Pizza" />
+            <elementDefinition Id="dc637fbc-ba91-4cd8-96e5-788b2e18dd27" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="e69fec3b-4c90-4b2e-9dae-a149bed4606a" name="CalculateCost" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4950bc5a-4dba-4ad7-8a3a-95dd9c53e0f6" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7861ffed-77ea-48a2-adf9-6f07b476d9da" name="SmallPizza" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9d61ff43-2231-4c01-8c70-dbfe58e79878" />
+        <generalsInternal>
+          <generalization Id="77782d70-76c3-4be3-8b3e-534a6416c13c" isSubstitutable="false">
+            <classMoniker Id="40abfc02-c0a7-43cc-9486-388cba215c82" LastKnownName="Pizza" />
+            <elementDefinition Id="d3bdccc5-e28e-40e0-8ac0-f370d47762c3" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="155ac943-582c-4b1b-b872-8d407612d449" name="CalculateCost" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5c3454d0-ba56-49d0-bac8-a4132d28298b" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c817b27c-43b0-4bec-9a6e-a92ede583c87" name="Peppers" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9e017a69-97ab-4c0c-a2f9-ba4bdda51ddd" />
+        <generalsInternal>
+          <generalization Id="d0d80d13-e6be-4c30-81df-0b6978207184" isSubstitutable="false">
+            <classMoniker Id="0cc8b7cf-7bd7-432e-b62d-4eb68aed5efc" LastKnownName="PizzaDecorator" />
+            <elementDefinition Id="6eedec27-5068-4951-8e9d-83fece9e5a7c" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="2853ef30-2107-4140-8a58-af93aded8ebe" name="CalculateCost" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="67efd063-6dc3-4cd0-be3f-8179fb1d2306" />
+          </operation>
+          <operation Id="ab8d16ef-5070-4b12-8d6a-23656b98a29d" name="GetDescription" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bfb78fa5-a695-4803-b37d-98af69685363" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="f7815373-ad0b-45d3-81c6-48e06b3f36a9" name="uml">
+    <elementDefinition Id="db554d6e-7a60-4080-8796-0bee86c8db86" />
+    <profileInstances>
+      <packageHasProfileInstances Id="be24e1ac-dcff-4dfe-bde7-30ead6662de4">
+        <profileInstance Id="29e90f54-61b8-4da1-9b43-53d8039f76cb" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="73daea87-1884-4f72-a157-ad8e8cfd561e">
+        <profileInstance Id="dfeebed8-5bea-4491-a689-31e52a25fb62" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

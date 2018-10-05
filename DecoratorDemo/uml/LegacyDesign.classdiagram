@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="b6d88e44-1ffe-41b6-9d65-fc3c945f540b" name="LegacyDesign" linkedPackageId="7e9a1327-5232-497c-9ce9-e32208abb0fc" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="9b3e47e3-7c76-4071-a3c6-203a58ef5419">
+      <profileInstance Id="8a1e62da-4b95-4cda-bc1a-d3aef6d46bc5" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="24524faf-2199-4156-b20c-8f3c717b047f">
+      <profileInstance Id="76d9ebe3-4e21-4939-8dd0-bfa9c4f19c6a" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c0f4d475-c7ac-4c13-b098-41345910f35d" name="Pizza" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="369eb2e2-5257-4a45-8da3-9fb1d7f6519e" />
+        <ownedAttributesInternal>
+          <property Id="31f0ac64-852c-4c44-9d45-9410ab3c376e" name="Description" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="74ad78a2-72c9-499b-9836-b6fd55c86fc6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0a82bc31-3866-40cf-b7a7-d8c12b817553" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="c603edc6-f0b4-4f69-b896-506822962058" name="CalculateCost" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="true">
+            <elementDefinition Id="33150d3a-eac6-41ba-a71f-2b3aa296d5b3" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0d5ef84a-f733-4b85-83e8-a381cc203586" direction="Return">
+                  <elementDefinition Id="a169d658-7c8a-4ace-9e27-6178f9b34d83" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="d32ed6d0-2219-4f0c-a215-150fa236cd0e" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d689cd01-4c80-4ecb-b6a0-d7b5b6b37c21" name="GetDescription" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="true">
+            <elementDefinition Id="2b4c403f-bae5-4b3d-abb1-8c361ef76064" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="45612bd5-90ab-4d2f-9866-e342b7351512" direction="Return">
+                  <elementDefinition Id="2eed0ba5-b888-4269-bedb-e665a065d25f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="691a97a7-c3be-4a24-b199-65ac1d578bc7" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="54c0f337-6913-4211-bc84-dd043e75bf8e" name="LargePizza" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5bdde1f4-06a5-477e-ad62-62162ecac3ae" />
+        <generalsInternal>
+          <generalization Id="b03f2fec-52fe-494d-8c96-ce753c79cc4e" isSubstitutable="false">
+            <classMoniker Id="c0f4d475-c7ac-4c13-b098-41345910f35d" LastKnownName="Pizza" />
+            <elementDefinition Id="8748c73f-f991-4122-a5b3-207e1fe678ac" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="e3caf0e4-baf3-4f2e-8bee-d953d647a87b" name="CalculateCost" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0ad6b645-3a0d-4dae-98a1-9fe02fd2b92b" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f4c94149-6178-41f6-aac1-93fd0c9dc3c7" name="MediumPizza" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a16bd1bb-5dc5-48f8-baa2-ec566b0335f3" />
+        <generalsInternal>
+          <generalization Id="28291c26-3703-4ea1-a378-5d57b4af8329" isSubstitutable="false">
+            <classMoniker Id="c0f4d475-c7ac-4c13-b098-41345910f35d" LastKnownName="Pizza" />
+            <elementDefinition Id="2232eb35-d880-4b7c-81fa-9cc9d447de72" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="e15a9964-2e9b-42c1-968f-208fd775e5bc" name="CalculateCost" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="45305124-a246-462e-9a96-dc86384aea44" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6fd8f286-8947-4e16-80e0-fe4fba517775" name="SmallPizza" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c5c1b7f6-63ff-413e-8d36-7780c91b044d" />
+        <generalsInternal>
+          <generalization Id="3a69395c-0084-4c65-ad02-9fadb2a5a45b" isSubstitutable="false">
+            <classMoniker Id="c0f4d475-c7ac-4c13-b098-41345910f35d" LastKnownName="Pizza" />
+            <elementDefinition Id="eab65f77-5500-4f92-9cb2-360a7b024d8c" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="2f8b958c-c269-4a94-95b8-b7eb872b1394" name="CalculateCost" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ddf6c1ca-0109-4a13-96a9-19db812e9aa5" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="0a82bc31-3866-40cf-b7a7-d8c12b817553" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d32ed6d0-2219-4f0c-a215-150fa236cd0e" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="691a97a7-c3be-4a24-b199-65ac1d578bc7" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="7e9a1327-5232-497c-9ce9-e32208abb0fc" name="uml">
+    <elementDefinition Id="db554d6e-7a60-4080-8796-0bee86c8db86" />
+  </package>
+</logicalClassDesignerModel>
