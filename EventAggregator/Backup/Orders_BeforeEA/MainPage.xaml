@@ -1,0 +1,22 @@
+﻿<UserControl xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"  x:Class="Orders_BeforeEA.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Orders_BeforeEA"
+    mc:Ignorable="d"
+    d:DesignHeight="330" d:DesignWidth="439">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="New" Width="40">New</Button>
+                <Button x:Name="Save" Width="40">Save</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="500">
+                <local:OrdersListView x:Name="OrderListView"/>
+                <sdk:TabControl x:Name="OrderViews" Width="500"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
