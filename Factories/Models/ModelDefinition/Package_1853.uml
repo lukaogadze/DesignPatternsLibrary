@@ -1,0 +1,1485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="457d6747-636d-45eb-8b07-3094dcb18d60"
+  name="Autos"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="7e7c487d-f42c-4127-a04b-bcc19b3366e8"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Factory4.Autos"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d6639213-7eb3-4ec0-870f-46a0881c5036"
+        LastKnownName="BMW"
+        LastKnownLocation="Package2_1853.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="e6eee29d-f3ef-4061-b4a2-1c82c84cfd5b"
+        name="IAuto"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="12598c70-a968-4500-8352-9e7d8e461062"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=IAuto"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5c622b5d-83db-45ef-b35d-160d891fc24e"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d7c1cd43-f8ea-40f7-8ee2-411363cef908">
+                <propertyInstance
+                  Id="20a32faa-1a27-42c0-921b-4fd5636f2baa"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e5bdab2b-5e71-4c18-8b8a-046ef1241857">
+                <propertyInstance
+                  Id="d67bde2b-2a71-4f09-bc95-9bc3afcfd21f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c3c7d19-42db-4e2a-b218-b669ddc8e5d2">
+                <propertyInstance
+                  Id="53acd71c-2115-42d6-b5ff-9c355ad46c96"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="73a4eb2b-2355-4c56-8829-fe519dd1c1eb">
+                <propertyInstance
+                  Id="72a910c4-c9f6-4085-af0b-dc8d2cb44134"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="f19200a6-462d-495f-8e95-69a045ea0080"
+            name="TurnOff"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7e71989c-6ddf-4f69-bb0f-e6160e35b979"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=IAuto Member=TurnOff"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9bd5b1a4-4300-4a1a-a0c9-5ccc57bcffbd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17eedd69-3846-4a91-ab4c-dc74f707294a">
+                    <propertyInstance
+                      Id="6ca3d8c7-946d-477d-a95e-d9ec43310731"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="724ff017-77c1-4563-a004-f2c1bf899e15">
+                    <propertyInstance
+                      Id="dcf9fad7-237f-4c62-89db-a0180ba80747"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc8ce14b-4428-484a-a386-5bec90c91407">
+                    <propertyInstance
+                      Id="e6cdd1ab-31a4-4924-9ac2-2c67eb3bae35"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af978b41-7e16-41ee-8a1e-d0f68c295809">
+                    <propertyInstance
+                      Id="81fee2bb-b897-4df3-b15e-024bbc093468"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="106a29f7-36ff-4e94-943a-4fbc8276f525">
+                    <propertyInstance
+                      Id="1732336c-0c29-4171-917e-74a5840fbe9d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="845a0dd4-c8b7-4140-b55b-3c53c65c438d"
+            name="TurnOn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3351d0c5-56a5-4f7e-be12-0d746a0d8591"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=IAuto Member=TurnOn"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ec512861-006c-48e3-b5fc-97823959b9f4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cd060f8-93d1-4692-98dd-1214eb2c96c9">
+                    <propertyInstance
+                      Id="f89259a4-f001-4a53-b76f-b44447c81b6b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bba76a8-6d9b-41b8-a43a-6011f0860ec7">
+                    <propertyInstance
+                      Id="c0ea8e72-ce06-4067-a937-12717c0fcb1c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40cc8898-7999-4854-8ad8-1706f81405f2">
+                    <propertyInstance
+                      Id="2007f2b7-493f-4c97-9de5-9cc52dc3336f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ba9457b-bc91-435b-9263-da0a0ed06700">
+                    <propertyInstance
+                      Id="3c084edf-7fd0-46ae-869a-02ccbbf624b0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41054832-2265-4a62-89d9-67b5380ac447">
+                    <propertyInstance
+                      Id="a047e0a5-598b-4a94-a39e-878310331b4e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c8953305-f321-48a9-9057-a1192fb8794b"
+        LastKnownName="Mini"
+        LastKnownLocation="Package4_1853.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f0b1af69-186d-4f35-bc5c-98862d56e99b"
+        name="NullAuto"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="905e43ae-886e-4078-a93a-0b94ed265c37"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullAuto"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="786a4028-011e-4056-aba7-d358719dd3ca"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36bc62e2-90c5-4a40-9dbd-e8a8e1125732">
+                <propertyInstance
+                  Id="d098d445-13f2-4298-a043-850cc91ee6cd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5f9a0e30-dd3e-4569-931b-2707f9c3f847">
+                <propertyInstance
+                  Id="00bad406-5891-452f-ae21-b32c795164a7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0a9114cb-688e-4e72-aee7-5972313c468a">
+                <propertyInstance
+                  Id="2bbd66ad-caf2-4935-9b2b-f67b445d1650"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cb47060d-099c-43fa-b57f-aba6e12de942">
+                <propertyInstance
+                  Id="9956c137-45cc-4b33-b967-99aa7e345681"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8642b92b-ebfd-425c-a588-7b1dd42cefce">
+                <propertyInstance
+                  Id="7a1ec7a9-b358-4982-84cc-78694343196b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="debd36ae-19a7-4961-8c3e-1cec49b97ec4">
+            <interfaceMoniker
+              Id="e6eee29d-f3ef-4061-b4a2-1c82c84cfd5b"
+              LastKnownName="IAuto"
+              LastKnownLocation="Package_1853.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="b79f1bbd-c7e0-4c37-812f-070db244ae24"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="64ef0839-f23a-4979-b335-1b9e5c7856c9"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullAuto Member=Name"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e06b830f-1d85-4c44-977c-333b903e0911"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73a439b9-6b04-4eb2-ac06-ccef511ad892">
+                    <propertyInstance
+                      Id="b8d1bed9-5c09-436a-a545-7f27fb852b99"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ba208db-47f6-47d8-a510-e77964cc62b4">
+                    <propertyInstance
+                      Id="f16eb4e9-9e08-403b-8bfb-c77a3b1e14db"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02191bf0-50ba-41e9-853c-2679147b2c85">
+                    <propertyInstance
+                      Id="4719eb4e-00f0-4360-9247-2e95135bd5f8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a76dcbde-00cc-4afc-8859-23291b211f37">
+                    <propertyInstance
+                      Id="7eb57e0c-f966-48f6-aa34-8f30aabfcecd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a3e9231-9d9d-4e4e-bef0-a29c8917366c">
+                    <propertyInstance
+                      Id="e94c6a01-5c39-47a1-8382-5d093af006f3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4b2e2eb-626f-4089-a146-3bd456f85893">
+                    <propertyInstance
+                      Id="365306d5-ef96-4f9e-8169-6b9753f96d2a"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Models.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="99086b64-540a-433c-8d8d-d1982e31ce5f"
+            name="NullAuto"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="32db774b-abe2-4be5-a8cd-4de6aaa4ddad"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullAuto Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2e7da507-abdd-4035-b90e-9bfd5d379866"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6b38d1a-c08b-46d2-8626-cc6045f66714">
+                    <propertyInstance
+                      Id="7584ed18-7c34-437e-a06d-98fb7a696036"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c018c64-91ca-4f2d-9f8b-4bf101ca377d">
+                    <propertyInstance
+                      Id="c962cb2e-ac3a-48d9-8747-c2b71c2c85cf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9efe154d-0fe6-4d40-91ec-ec74fda6b1f7">
+                    <propertyInstance
+                      Id="664fef31-d5a0-49a7-a12f-11f41a7a4005"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7e0f1f4-2ce8-49b2-a320-d00239796186">
+                    <propertyInstance
+                      Id="f627e487-131a-4c56-9540-76aafccbe00a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a13a5ec-1887-4cdb-8935-7093dd67d48a">
+                    <propertyInstance
+                      Id="c57b9f4c-ab12-4066-b619-51cd82e7b110"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="937e6dcf-79af-465e-92c1-07d74d2a65a8"
+            name="TurnOff"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d88fb020-3b61-444e-960a-458a1463ea4b"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullAuto Member=TurnOff"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a78d43aa-c83f-4fa0-acd5-cab277051bcc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73da0192-c65f-429a-8852-a93b5a4e8947">
+                    <propertyInstance
+                      Id="f1fb76e4-34fa-415a-91d6-348e0f75d665"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd0df235-a6a6-4fe6-bd84-f0a50028df81">
+                    <propertyInstance
+                      Id="29b962d6-1c9a-4c8c-8c0f-3f1def638f7a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfdfde92-465c-4ee8-9444-8c09b628a209">
+                    <propertyInstance
+                      Id="cf41e849-cca7-4c73-866a-5b76c5b20d32"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5793d9e-f97b-4c28-9e92-3bfddffa5d4c">
+                    <propertyInstance
+                      Id="bd0fa881-ff24-4387-a1f7-7c13447c8eb1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8dcb0823-670a-49fa-9701-4abc8161d4dd">
+                    <propertyInstance
+                      Id="89d1a05c-a967-4d6a-910a-e777d1e5f838"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="712c5b91-d116-4990-91e0-d36e08f88126"
+            name="TurnOn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="68834f89-0a91-4397-82fe-9192361679e3"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullAuto Member=TurnOn"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="11358257-6b03-417b-8663-73d3bd97c968"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a427120-84f1-4a1a-8942-c0a1d1e777cd">
+                    <propertyInstance
+                      Id="b6bd7c3c-8644-49da-92f9-d8f4aae86d3e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68a01f99-af31-4ec1-afd9-a5e0f43a1576">
+                    <propertyInstance
+                      Id="b9d2209a-c96a-4956-baca-b436f33177e8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4de3d2c-ba5c-4cd7-a6a0-30ab7f61222d">
+                    <propertyInstance
+                      Id="fc78b4b4-ac52-4087-82db-12c63738c608"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="902930f8-3651-408a-95fa-3ee1133c6d98">
+                    <propertyInstance
+                      Id="3274305d-5cf3-47eb-aa33-5ec89e145dab"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3006ad34-fb6e-4bed-8022-58046a06b062">
+                    <propertyInstance
+                      Id="a8b965da-7f39-4ee6-998e-dd28ff03989a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="f5e5aba5-5d2d-463c-82d4-4821f0d70e6b"
+        name="PrintHeader"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="e3309185-9027-42fe-8e81-91db83097565"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=PrintHeader"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bbf94d64-2f17-41a5-9d83-bd931fd5259e"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3a39a39-4e87-48af-9309-fab3df69dfa5">
+                <propertyInstance
+                  Id="eaa39539-69a2-44e5-b7d5-04e55817e4e9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="54396813-4f30-4214-bf11-06feb08ba553">
+                <propertyInstance
+                  Id="ba6eb5a2-1463-4136-9a30-780d49faef2a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3d6a6cb-92b1-42f3-9ac2-24abf13ff67f">
+                <propertyInstance
+                  Id="56466a9a-5bae-41e0-af7e-026be5a749d4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88ba96f2-3695-441e-853d-42b20d3740ff">
+                <propertyInstance
+                  Id="e8975c21-090f-4d05-904b-4b44d5440f85"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="d0738548-5540-4eb1-bd45-f2b6f71ba0a0"
+            name="TurnOff"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a3461448-bdb6-4006-ab22-ab9f41a61f78"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=PrintHeader Member=TurnOff"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6e41cf53-6313-40b7-b904-3fdcac42564a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d9ed74b-8ece-4e2e-9891-f21e339426b3">
+                    <propertyInstance
+                      Id="42773561-e284-4115-b67c-4892d599c25f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48b3ba32-1290-48ce-93d9-4390011dc80d">
+                    <propertyInstance
+                      Id="9ad178a3-aebe-4c18-9e05-6c8742da0e41"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ec08c82-e236-474a-b231-871594201d67">
+                    <propertyInstance
+                      Id="3646b664-344b-4053-8ce8-0478baf83ee9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31a01f83-b985-4e1d-8491-8dc96306e827">
+                    <propertyInstance
+                      Id="9b2dd1c2-5f0b-49dc-a949-9db05078c13e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43d59580-9f1a-4087-8c14-e2582ead00ac">
+                    <propertyInstance
+                      Id="0a54e68d-981c-46ff-a8dd-8b668a16b192"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="ea90978e-5e5f-46f2-9bb9-9f69b92668c0"
+            name="TurnOn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fdad0656-2557-4cdf-a46f-a78938091867"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=PrintHeader Member=TurnOn"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="73ace64b-306a-4fa5-aed2-abc61762e05d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2d053e6-686b-44a7-83b7-68a64427823d">
+                    <propertyInstance
+                      Id="41455fb1-eecc-4dc4-9fbd-8c11f4577e8f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7484c6fd-bb60-4f53-932f-4702680c5e6e">
+                    <propertyInstance
+                      Id="61bc2d84-5660-44fc-9274-2256c3c3a9eb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8dc91c2e-8f6f-4251-8f27-0611f6950c26">
+                    <propertyInstance
+                      Id="87e326c3-3d39-4cd2-90ef-763f074cb597"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bfdccc9-6e9e-444c-afd9-7647f621fe42">
+                    <propertyInstance
+                      Id="25d30555-3ece-4b6e-ab9c-d2ef97393f00"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4aef1657-7888-4bd3-9bfa-d3ca61d2b581">
+                    <propertyInstance
+                      Id="90e1b123-54da-4bd4-92b3-7399f4da3691"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b695e764-8440-46a2-8dd6-e059a24a3650"
+        name="NullPrintHeader"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="53a6edd7-4383-41f8-aebd-ff5a22eee291"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullPrintHeader"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f3beff48-6eeb-4fa8-9e32-04714942b762"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="89511375-6029-4a62-b43a-1c144fa211b7">
+                <propertyInstance
+                  Id="08e7dc42-93d8-4947-b9bb-e089c5b2017f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff6bdff1-9859-4854-bbe2-f878e19e34ef">
+                <propertyInstance
+                  Id="e89f54c5-f3d7-488c-99b3-d6ad4cab6399"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e19cdbe5-0053-44ea-be25-70b44a7de443">
+                <propertyInstance
+                  Id="48e2461a-be97-44ee-af35-6d640631841d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41f81085-596f-4fde-a530-e012b6437ee1">
+                <propertyInstance
+                  Id="33d6d9a2-9a88-4840-9763-e020d6fa2823"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e110b1c-efb7-417e-b33e-4f48d177b613">
+                <propertyInstance
+                  Id="297659fa-c17f-48e1-aa95-bec0d2be41a2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="2db9d726-52e9-49fc-bb19-5585a73516c5">
+            <interfaceMoniker
+              Id="f5e5aba5-5d2d-463c-82d4-4821f0d70e6b"
+              LastKnownName="PrintHeader"
+              LastKnownLocation="Package_1853.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="6b3f313d-fe1f-41a8-bbc9-2151a9573788"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="429a1c51-9263-4318-bf2a-684755793958"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullPrintHeader Member=Name"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b2ecac7e-62d9-41bb-9837-e1de823afc3d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b084b0a0-f218-442b-8aa9-51e7b2a16ffb">
+                    <propertyInstance
+                      Id="1373238e-36e5-467e-b754-3d7856e6e021"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4d142a4-6e95-4864-8895-9bc27a734f0f">
+                    <propertyInstance
+                      Id="4f99f640-dacb-4980-b835-cbc509d7a27a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59d05fba-79be-4c83-850c-04478ea72048">
+                    <propertyInstance
+                      Id="b6b8b469-47ab-4497-8d42-efa81bb86e7f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b993f677-76bd-4430-9b87-5f81df032918">
+                    <propertyInstance
+                      Id="4a64f0b5-401f-40f0-b5c2-bc683a814ed6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c5c2b70-e778-4124-b3ea-210007d4e984">
+                    <propertyInstance
+                      Id="40c3ea99-23e3-40a7-b7bd-f4587442ff40"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="159596fa-911f-48fe-b2c6-b19ae98dffad">
+                    <propertyInstance
+                      Id="74d2f7ef-9868-493a-8576-bfe00ec207bb"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Models.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b6795238-d1aa-4f88-9897-43d4b555a6f5"
+            name="NullPrintHeader"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="aa04bdd8-4409-4e24-9b12-c9df89ac5a86"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullPrintHeader Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1f07cec8-22e6-4f30-baef-17641b13281b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e3751d0-c251-4e0f-ba35-40e8a6c365cb">
+                    <propertyInstance
+                      Id="c1e9144c-8252-49ae-b94a-31a65c5a3279"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d3cc391-75dd-4607-93ff-4b18dbb89fcc">
+                    <propertyInstance
+                      Id="c4b0dbb8-f446-48f0-a2d6-b73d64cf78c7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ada6ec53-8ec9-49fb-888c-432455dfe1ec">
+                    <propertyInstance
+                      Id="ad444f33-55ee-4455-a319-9b5c52959cf9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc11e3a3-31e6-4c88-95db-7314adcddc55">
+                    <propertyInstance
+                      Id="b7cfad56-074f-4206-b8ee-5758208f58df"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4137eb7-8aa2-4452-970f-8f1d0117a39f">
+                    <propertyInstance
+                      Id="60b85d6e-f132-4744-973c-308d87701994"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="38ee4e8f-e54f-432f-b535-8ae56fa11730"
+            name="TurnOff"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0dc3907c-1b47-4a86-ac46-8d5bd2cada61"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullPrintHeader Member=TurnOff"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4b18e5c7-a002-442d-9151-23ec05c2218e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21b9d978-06ed-44fb-bc96-cc96115a737c">
+                    <propertyInstance
+                      Id="2f6fc4de-f62c-4143-8009-d713d974ce05"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c22a4fa-a13e-4037-9c89-ade95215d8fe">
+                    <propertyInstance
+                      Id="597c0d5c-b7b6-41d2-a2a5-7358bcf91a5c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4167d21-ea25-4fa1-900e-1920dbf5b224">
+                    <propertyInstance
+                      Id="4a22f4d2-efe1-4d88-94ae-a97b398ba936"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="139656c3-d6a8-480f-988a-fbc3e9efcf0a">
+                    <propertyInstance
+                      Id="6fc08c77-f179-4489-96e9-0ab90f1c4733"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="469a107b-aab9-4dc6-bf6a-d0de2bfe4b14">
+                    <propertyInstance
+                      Id="61eaea73-bc1f-4247-9d73-9b2a28256310"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="504e0303-03c3-4784-9e68-2bf05becb415"
+            name="TurnOn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b452acdb-35ad-4446-9268-4d88583c1c2e"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullPrintHeader Member=TurnOn"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ac5028a9-8e36-451c-bfbb-c2eade20754d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95945f1d-2654-41b3-8c5c-7dfa28992f12">
+                    <propertyInstance
+                      Id="73882b2e-35ae-4a79-862b-698f9bf054fa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e66106b-09de-4252-bcf2-121722785c46">
+                    <propertyInstance
+                      Id="46471c2a-da88-408b-a1ed-4d1144511624"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abab10eb-fe5b-4896-a665-001136e511ff">
+                    <propertyInstance
+                      Id="8535962a-de48-47b3-81f7-06916a3ed518"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67a2d871-cf95-494c-95d6-98bd1ec0105b">
+                    <propertyInstance
+                      Id="e9896ca0-bd6d-455e-971b-813ff6ab67aa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47507be6-cfd9-4838-a1b6-afc636dbbd0c">
+                    <propertyInstance
+                      Id="c4aabb59-0d41-424b-bba6-d490181a95f8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="51299240-d34f-49af-96d6-8fb2ffe2cba7"
+        name="IAutomobile"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="c0da3297-8a48-4f60-a886-6908c4afb3a2"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=IAutomobile"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6bf49737-9a19-4401-b2fb-b1c5b1eaf169"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="89363eb0-697b-48a9-b272-a5f8b344757d">
+                <propertyInstance
+                  Id="8e9a5e21-27f4-4a27-8c14-b862f8d2cb66"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ae6ffc98-8509-4c23-a18b-e973f05ffacb">
+                <propertyInstance
+                  Id="5f1fc796-7dd3-4081-8599-c9b4b5a8b263"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1050462c-3561-40af-bace-d36a5d07daed">
+                <propertyInstance
+                  Id="7a0aa085-7947-4780-99de-23a617dc8b93"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="72b00beb-6b42-4646-add2-2b4cde47555c">
+                <propertyInstance
+                  Id="b126dd02-ea27-4a4b-a580-4fe469482b82"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="6ec55053-e563-41ab-afdb-c0b0367c6143"
+            name="TurnOff"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="30d8c4dd-13bd-4c26-ba91-92141aa0fa77"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=IAutomobile Member=TurnOff"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9eae42d8-dc1c-4ad6-aefe-b799f187575f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d6af483-238f-49df-9453-142e2c6e152b">
+                    <propertyInstance
+                      Id="33181fbe-0665-483f-a181-56974c571d38"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb5e92cd-e7cd-4454-9674-0ce78d424c66">
+                    <propertyInstance
+                      Id="9cb34370-005e-4197-aa2d-b71dd7b3e1bd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfb7f669-d6af-4b69-bea3-c2addd72e5a5">
+                    <propertyInstance
+                      Id="0f598d4e-fcfd-4ebc-ba28-71c31dda539e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f24300b-d99a-4311-a5e5-5f7ecfd81924">
+                    <propertyInstance
+                      Id="c13037cb-8e63-4db1-b75a-949233110729"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f720d465-5d34-48fd-affb-08bb8bd1ca00">
+                    <propertyInstance
+                      Id="07e8ed1f-c7bb-4181-b3dc-f935664a4a03"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="a2e40999-4320-4f51-9123-117a40de41f9"
+            name="TurnOn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5efb0467-4fe5-4e1b-b39c-b41ccf75cb3e"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=IAutomobile Member=TurnOn"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="33d52926-26a3-46d8-8d7a-4a2d265907dc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="937bf1d4-5aea-49ca-9312-a7cc1188513d">
+                    <propertyInstance
+                      Id="99bd4da3-1b7e-4c33-a6a5-a0b81d676b0d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab6b7fef-ff00-4d8f-ba1b-28e8e4951393">
+                    <propertyInstance
+                      Id="75239963-6989-441a-a695-6bc983e7fdc1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="449a3b65-3fe7-4fa1-a2ee-77b6c46a6ec9">
+                    <propertyInstance
+                      Id="3d2746bf-27b9-4730-846e-88ed3d7c5878"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc48fa0e-3ffc-4f3f-b2fa-e2ceb1332ff7">
+                    <propertyInstance
+                      Id="00e3b1c3-a1d8-4d6e-9af5-5f4d720f56bb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0910935f-4fe4-41e7-90d0-1ab521eeb783">
+                    <propertyInstance
+                      Id="46e0059e-7c17-47d3-bab8-69b618c61547"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="350f385d-7e99-415e-8182-7da24424b8ba"
+        name="NullAutomobile"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5a2c1522-ce8c-4a38-b595-e3e355d583c5"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullAutomobile"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a6713f0a-a922-494e-9c7e-7555ce2df1bc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="735b237b-d781-466c-bbb2-4a1050719adf">
+                <propertyInstance
+                  Id="47521f38-63b3-4c22-afbb-92dc88c02158"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="badefe36-107a-4538-a559-abd32def2544">
+                <propertyInstance
+                  Id="404aa3a1-570e-4776-988b-2658528f4ff4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="02969b01-fb4c-4e43-9e0c-d4e115fe30d5">
+                <propertyInstance
+                  Id="3c0f1ac6-fb6b-4f67-aa13-2054e4ce743f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1771eb51-e045-4886-9476-62fe542c1d2a">
+                <propertyInstance
+                  Id="ee32eae2-73a9-4c47-9607-22e1103faf5a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="90fb02ef-f551-49ee-8fdd-78841fb90d7f">
+                <propertyInstance
+                  Id="2aa14b52-be8a-4ba5-8769-0cabfe72c7bc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="8c89d1c3-7f5e-4d5e-b336-dd50cfc74d88">
+            <interfaceMoniker
+              Id="51299240-d34f-49af-96d6-8fb2ffe2cba7"
+              LastKnownName="IAutomobile"
+              LastKnownLocation="Package_1853.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="39d3e6f1-73f9-46fa-bb25-7695f17aee88"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="95bcaf43-fd89-47b1-908c-c34e4f2bd28a"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullAutomobile Member=Name"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1eec2715-78ac-41ea-bc60-8a93ea72deeb"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1bd2d6e1-7a0d-44e2-bdf0-ffdb1ed0dc2c">
+                    <propertyInstance
+                      Id="f1633613-080f-4174-a3c3-33b8f79cdb75"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a56f7f0-886f-40d5-bdd8-af995c9c2cfd">
+                    <propertyInstance
+                      Id="0ee8dbaa-0dd0-4460-b1fc-f217af483efc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e856f0c-2d3a-4833-a242-ee9d2addc3d4">
+                    <propertyInstance
+                      Id="2671d09e-75be-43b7-a55b-b6d1a7b02f53"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e614f64f-592d-4d4b-b7f1-742195baf37f">
+                    <propertyInstance
+                      Id="c2fb4802-9fd5-4649-a675-99332ae50b59"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce1dcaf5-7641-4d82-8284-8f35b4143513">
+                    <propertyInstance
+                      Id="c56c7d44-0f53-4e9b-89fe-f52081ee1b5f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90d56dd6-d191-477b-9199-b0c4f35017c3">
+                    <propertyInstance
+                      Id="a2eb9e6e-0f18-4e51-80d6-b20856388139"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Models.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="11739ab8-af06-4f30-89b8-251e7c7be0cf"
+            name="NullAutomobile"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ee0b1c74-9d26-4768-8a84-1663e926917e"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullAutomobile Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="39db342e-71de-414d-92f6-ab266a5e13d1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab2fc380-1043-45d4-9591-cc9879f3a3d5">
+                    <propertyInstance
+                      Id="b1585d05-6835-48c4-afbc-7db153063198"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69a20947-eadd-4d45-a82f-8b12fbf4b4c9">
+                    <propertyInstance
+                      Id="64043973-d0d7-4a57-ae14-acc9c684caa2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ef0492e-f9cf-4844-b347-f64989bcaa62">
+                    <propertyInstance
+                      Id="749f3e70-83a1-4d76-bc59-50ac2bb50109"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="141b54f0-a0fb-4fdf-8e4d-5b72b5afbfe8">
+                    <propertyInstance
+                      Id="0fad74f6-927c-4905-8fba-488f13e2373f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5389116d-8a0f-47c7-936b-0d58c5a067a4">
+                    <propertyInstance
+                      Id="c3fcbe5d-0d49-4687-9d48-5626b56bbab0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="56d86ce5-e3c4-450e-80a8-ae8932eb478d"
+            name="TurnOff"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dbc9aa26-d6fa-40f4-8c96-eddaff0a04c6"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullAutomobile Member=TurnOff"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d52b59f6-b711-4c65-b9b1-ddf4c8488b12"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56725ca3-c4fb-4e92-a112-97df9da3363a">
+                    <propertyInstance
+                      Id="5ab3c2c2-c159-4bbf-ad45-30c2bafaea8a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2c6f644-0140-461e-b1e7-27c2915132e4">
+                    <propertyInstance
+                      Id="acee4b9f-4405-43ff-bb59-838f944bea06"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca1a7856-4bac-4d82-abf5-8f9a729f6b31">
+                    <propertyInstance
+                      Id="34117310-d70b-4c91-a5a0-659aab08fc1a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19af9cf4-638b-4b25-b9e9-907899667b45">
+                    <propertyInstance
+                      Id="0db84c1e-b05f-4c2c-89b2-6169b055a1b1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c38e595-4b11-4f2b-be9f-faef561708a7">
+                    <propertyInstance
+                      Id="7d6c2491-c118-4a1c-816d-4ada6a5559b1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="6b16bd20-28d0-4d7a-b8ed-3116c3bb307c"
+            name="TurnOn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="783304ca-5b83-4dbd-9a9e-467005cc82c1"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory4/bin/Debug/Factory4.exe Namespace=Factory4.Autos Type=NullAutomobile Member=TurnOn"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cf7821cc-bf2a-4a50-a76f-74bde9c99cbc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9d9dce8-aad9-4bd1-a3d6-471b3836a8e0">
+                    <propertyInstance
+                      Id="8d52bcf8-1101-4c20-a15c-bcf928edd377"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4879c271-fe60-42de-a189-9a1642d52370">
+                    <propertyInstance
+                      Id="24cf9438-1441-478a-adab-a4d437832dae"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e657f58b-d767-46ae-b1ce-f63e0ef3a92b">
+                    <propertyInstance
+                      Id="b89fe8d3-1a30-4494-8977-350a75270864"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7107046f-e98f-487d-89e1-2f8e4457707b">
+                    <propertyInstance
+                      Id="922166eb-a9dd-46b9-a4e3-35057cbd0127"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5b9dc08-11bc-42bc-bc80-1117150c4824">
+                    <propertyInstance
+                      Id="e39e813e-f198-479e-82e7-4a528e936e22"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

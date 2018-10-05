@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="bf3408fd-4bce-4754-9dd2-c68331cee0d4"
+  name="Factory2"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="54d45459-c549-41df-b800-500f48a898ba"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Factory2"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="1ef5f1a1-ddc7-4a95-9762-78c6e080cb06"
+        name="AutoFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c472f8cf-8431-4f3b-bcad-b539c291df36"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory2/bin/Debug/Factory2.exe Namespace=Factory2 Type=AutoFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4f51a553-0337-4793-9634-8ad29593f33f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96e9e3f4-5602-431c-ba4f-75a4352ac3b5">
+                <propertyInstance
+                  Id="039c4326-c7d9-418d-8587-c04ab535ae82"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d0abf0bd-9bc2-4724-9114-70e4d9e815c8">
+                <propertyInstance
+                  Id="a64ac282-f35f-405f-b634-bfada6a9e3a2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fe82ce64-c81d-4db9-be1b-62e863e79287">
+                <propertyInstance
+                  Id="dcb8091b-6db8-4cdc-8a29-08cc8facc0fd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4a9d98a0-2cef-4bb5-a00a-f07cb1349405">
+                <propertyInstance
+                  Id="e84cda46-3836-4eaf-a8cb-7214b39d530b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e03c6e72-2993-4121-8c66-bcc766607b55">
+                <propertyInstance
+                  Id="08231085-bfe3-45bf-bdd6-c46d34dedcc1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="89594fe6-9e67-423a-bd8e-5672d07632d5">
+            <interfaceMoniker
+              Id="885a08eb-ed8a-4eb6-b830-90ea00792c7a"
+              LastKnownName="IAuto"
+              LastKnownLocation="Package1_1228.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="e13fc08d-ada6-416d-8d7d-af93776b346d"
+            name="autos"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4c73c4aa-a14a-454b-b0bc-1b2f7a007302"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory2/bin/Debug/Factory2.exe Namespace=Factory2 Type=AutoFactory Member=autos"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="233c1766-9530-4ee3-9e4f-eb74e0194cf6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10494256-d3a9-4c03-beeb-2462f4b23b50">
+                    <propertyInstance
+                      Id="3c4fd22a-3858-456a-a88c-cbcbc51d8de9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="158522cb-dc67-4532-be5b-60bd947bb2a6">
+                    <propertyInstance
+                      Id="d8491215-eeb5-43d4-9fe1-07035eee25fb"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bd0e846-c7d2-403e-9820-3bba15e866da">
+                    <propertyInstance
+                      Id="00dfa67b-743e-41df-b7fe-d840fe2a7cd9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8613746-9fd4-49f7-b72b-348d367261b8">
+                    <propertyInstance
+                      Id="95abd945-6685-4ce9-8b87-2bf4a7d228b3"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d7b6fdd-55a4-4417-b762-c489e0d00de9">
+                    <propertyInstance
+                      Id="c362190d-92b5-4127-99d8-eb722607b6af"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3107d85b-e930-43c4-b133-7e5a39ed746a"
+                LastKnownName="Dictionary&lt;String,Type&gt;"
+                LastKnownLocation="Package4_1228.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e122d23f-98d8-4334-bbc8-8992e9a5ae45"
+            name="CreateInstance"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ddea8f4c-def9-4873-92da-bcd24f66d022"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory2/bin/Debug/Factory2.exe Namespace=Factory2 Type=AutoFactory Member=(Name=CreateInstance OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=String)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8e94a6e8-a92b-46dc-af5f-b828cb387190"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a715376-1435-4307-9b6f-7ea20e00c705">
+                    <propertyInstance
+                      Id="ecd72bc9-6776-4f3f-9976-b786c3858a9e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2721c24-49ae-4686-b8b7-631b71d14a39">
+                    <propertyInstance
+                      Id="8918973a-431f-461a-a756-1016e53e2bf7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba73530d-6021-4440-ace6-5d1e98b41692">
+                    <propertyInstance
+                      Id="022c6ca4-b562-4a32-9fab-879c2de5913f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edcf284d-e08b-4611-9659-63aaefbb9144">
+                    <propertyInstance
+                      Id="c6193c33-f204-4944-957c-352ead84020d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d7028c2-c8d4-49a6-8e97-c11a11be65a7">
+                    <propertyInstance
+                      Id="ef7b1a7c-d690-478c-baa4-2fd7a31a916a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0b138e59-c82d-4416-9d3c-15e6f4f97b60"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="885a08eb-ed8a-4eb6-b830-90ea00792c7a"
+                      LastKnownName="IAuto"
+                      LastKnownLocation="Package1_1228.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a0e6fbae-6d1e-418f-8681-179ddaa84ae9"
+                  name="carName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e4c6afb1-4331-4ce2-bd4c-00ed9282253f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory2/bin/Debug/Factory2.exe Namespace=Factory2 Type=AutoFactory Member=(Name=CreateInstance OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=String)]) ParameterIdentifier=carName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Models.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="eb58e4c4-e7cc-4e0d-aab8-b0202d109af5"
+            name="AutoFactory"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8440e698-dc4b-4208-899e-4bdad4b5445f"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory2/bin/Debug/Factory2.exe Namespace=Factory2 Type=AutoFactory Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8bf3da95-7fc6-4a8b-9499-367b072fc5ab"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44d6a8d5-ece2-47c0-bcbe-845a70bc0306">
+                    <propertyInstance
+                      Id="be504da2-0486-4579-bbd1-5d49da0277ce"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15cff771-5191-4b53-89bc-d134d62b38ee">
+                    <propertyInstance
+                      Id="acb41f18-1e37-4cda-b856-9ae1a15bf706"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93e9ea92-f198-45b0-9ac5-27e1aaf61c3f">
+                    <propertyInstance
+                      Id="8672fbd0-a965-4d25-aae4-1bb5807502d6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2e55ee4-5436-4e2c-8c1d-5403a1c70123">
+                    <propertyInstance
+                      Id="69947986-1ded-40bb-933d-ddb542a25c08"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15c9d99d-43b8-44c0-8ef7-00a3f0a2aaee">
+                    <propertyInstance
+                      Id="8901c188-4cd4-4663-a244-5cb064e12cb2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="7ac1dc16-f291-4c14-9a5b-44a4758e6966"
+        LastKnownName="Autos"
+        LastKnownLocation="Package1_1228.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ff977188-1d29-4c97-9c46-866ae59b3664"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6d4d3d94-efc5-4b7e-a878-b09a02bbee78"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory2/bin/Debug/Factory2.exe Namespace=Factory2 Type=Program"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d1ed627b-9d4c-4f5b-88a0-2379f8e239b2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="455f756a-2261-41c4-99cb-fbb53559cb52">
+                <propertyInstance
+                  Id="1bbe7ab4-b7c0-4a58-81c7-eee816f75fe4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f9da07db-c996-452a-8140-99e11a0e3582">
+                <propertyInstance
+                  Id="ccee7697-ea48-476c-8c94-e0995e1cd47f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e457080d-fb07-431c-abfb-f90fd28b0a7a">
+                <propertyInstance
+                  Id="8f1e3274-0f8b-48a0-a759-7ab28b3825d5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8a3a2da-f6e4-4dff-af82-1feca4b6445b">
+                <propertyInstance
+                  Id="e581e0e2-c469-4167-94eb-51cbb6886150"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dccf09de-654b-486e-baa2-579ccc0a5c82">
+                <propertyInstance
+                  Id="a7fb9f7e-3291-4a37-b3a8-710504fd38ff"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0cd65dff-3d8b-46f4-a14d-aa4be47f3e4f"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8d67ce9a-ea8c-440b-9605-e410d650f40f"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory2/bin/Debug/Factory2.exe Namespace=Factory2 Type=Program Member=(Name=Main OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=String ArrayRank=1 ParentType=String))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="32986ff1-fbfc-40e9-a209-18d2d8da8e2e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da67ad1d-2348-44fc-affc-578f635ae340">
+                    <propertyInstance
+                      Id="9a578e58-edfd-4d4f-a71e-1b87ac901504"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f044d050-c609-425f-a410-fe2ea4d7f431">
+                    <propertyInstance
+                      Id="c746b72d-a6c9-405b-8d1d-6810f2c0e1fc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76722584-0390-41d0-b728-02317fe4cb0a">
+                    <propertyInstance
+                      Id="ceea9b40-fe1a-4d24-9a4e-b715689a0988"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6a672e0-fc1e-4f8c-8684-c8faf8cd25eb">
+                    <propertyInstance
+                      Id="2521a0c0-db6e-4b7d-9129-6ca4c647476b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16a055f0-f612-42da-bb20-5ace68d59b5b">
+                    <propertyInstance
+                      Id="7307db28-528e-4b05-a146-919e39e1e7c9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b6204120-baef-4f85-af53-7e8975318c02"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="5196ff54-0c1e-435a-bf50-6febf66d354d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory2/bin/Debug/Factory2.exe Namespace=Factory2 Type=Program Member=(Name=Main OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=String ArrayRank=1 ParentType=String))]) ParameterIdentifier=args"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="48eb2a9c-ca07-4d1b-b365-dfba50a9480a"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bad9d169-04c2-40ba-b7bb-be9dfc8a872b"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Models.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d2b5fa2f-4910-4e3e-b85a-bb57558883dd"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f799d0f3-de16-4b9b-926c-cb47622c6d75"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Projects/PS_SVN/personal-david-starr/psod/Patterns/factory/src/Factory2/bin/Debug/Factory2.exe Namespace=Factory2 Type=Program Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e03ea119-df67-4861-84d6-1e7a513b68dd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b97028fd-b206-49cf-9ad7-79ad60d0670d">
+                    <propertyInstance
+                      Id="f14cb8be-d0d4-4838-a48e-7df75a8fce60"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2c3fe33-824c-4700-83eb-44cd003f39a1">
+                    <propertyInstance
+                      Id="e16978f1-5a75-4807-8216-06d26a3dac77"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd63ae91-7b2c-45d4-971b-ab32d84d6029">
+                    <propertyInstance
+                      Id="a467ae1a-ad64-46f7-a897-12c1a38f9a77"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="872269da-58aa-49e9-8eca-f91dbc80cfa8">
+                    <propertyInstance
+                      Id="b63a9391-8a5d-4b48-9f52-35f3b5dbea3b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="686e67d1-fccd-4d60-a349-e4bbafe70552">
+                    <propertyInstance
+                      Id="96459c20-3afb-4680-86a1-47bbd867a43f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
