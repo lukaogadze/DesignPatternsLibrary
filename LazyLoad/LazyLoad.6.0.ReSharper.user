@@ -1,0 +1,239 @@
+<Configuration>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #2</Name>
+      <Elements>
+        <UnitTestElement Provider="nUnit" Id="LazyLoad.Ghosts.OrderShould" type="NUnitTestFixtureElement" Project="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C" />
+        <UnitTestElement Provider="nUnit" Id="LazyLoad.VirtualProxy.OrderShould" type="NUnitTestFixtureElement" Project="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C" />
+        <UnitTestElement Provider="nUnit" Id="LazyLoad.ValueHolder.OrderShould" type="NUnitTestFixtureElement" Project="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C" />
+        <UnitTestElement Provider="nUnit" Id="LazyLoad.Ghosts.OrderShould.LoadItemsInSingleCallOnPropertyAccess" ParentId="LazyLoad.Ghosts.OrderShould" type="NUnitTestElement" TypeName="LazyLoad.Ghosts.OrderShould" MethodName="LoadItemsInSingleCallOnPropertyAccess" Project="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C" />
+        <UnitTestElement Provider="nUnit" Id="LazyLoad.Ghosts.OrderShould.LoadItselfOnlyOnceOnPropertyAccess" ParentId="LazyLoad.Ghosts.OrderShould" type="NUnitTestElement" TypeName="LazyLoad.Ghosts.OrderShould" MethodName="LoadItselfOnlyOnceOnPropertyAccess" Project="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C" />
+        <UnitTestElement Provider="nUnit" Id="LazyLoad.ValueHolder.OrderShould.NotLoadItemsUntilReferenced" ParentId="LazyLoad.ValueHolder.OrderShould" type="NUnitTestElement" TypeName="LazyLoad.ValueHolder.OrderShould" MethodName="NotLoadItemsUntilReferenced" Project="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C" />
+        <UnitTestElement Provider="nUnit" Id="LazyLoad.VirtualProxy.OrderShould.PrintLabelWithOrderProxy" ParentId="LazyLoad.VirtualProxy.OrderShould" type="NUnitTestElement" TypeName="LazyLoad.VirtualProxy.OrderShould" MethodName="PrintLabelWithOrderProxy" Project="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/f:Customer.cs" caret="373" fromTop="15" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:ValueHolder/f:OrderItem.cs" caret="0" fromTop="0" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:Customer.cs" caret="0" fromTop="0" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:LazyInit/f:OrderBad.cs" caret="460" fromTop="6" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:LazyInit/f:OrderGood.cs" caret="339" fromTop="11" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:LazyInit/f:OrderShould.cs" caret="726" fromTop="24" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:VirtualProxy/f:OrderShould.cs" caret="474" fromTop="8" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:VirtualProxy/f:Order.cs" caret="157" fromTop="7" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:VirtualProxy/f:OrderProxy.cs" caret="649" fromTop="16" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:VirtualProxy/f:OrderFactory.cs" caret="254" fromTop="10" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:ValueHolder/f:OrderVH.cs" caret="276" fromTop="14" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:ValueHolder/f:OrderShould.cs" caret="464" fromTop="10" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:LazyInit/f:OrderLazy.cs" caret="287" fromTop="9" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:ValueHolder/f:ValueHolder.cs" caret="139" fromTop="5" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:ValueHolder/f:IValueLoader.cs" caret="94" fromTop="4" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:ValueHolder/f:OrderItemLoader.cs" caret="524" fromTop="18" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:ValueHolder/f:OrderFactory.cs" caret="287" fromTop="9" />
+      <File id="82AF5AA4-036A-47FB-93B5-4435B56531D6/f:OrderShould_PrintLabelWithLazyOrder.sequencediagram.layout" caret="0" fromTop="0" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:OrderItem.cs" caret="0" fromTop="0" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:LoadStatus.cs" caret="113" fromTop="6" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:OrderItemRepository.cs" caret="562" fromTop="16" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:OrderShould.cs" caret="1718" fromTop="14" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="187" fromTop="5" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:Order.cs" caret="565" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:Order.cs" caret="1703" fromTop="40" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:Order.cs" caret="1704" fromTop="7" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="1590" fromTop="28" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="319" fromTop="14" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="1590" fromTop="17" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="1583" fromTop="39" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="1583" fromTop="22" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="1216" fromTop="13" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="169" fromTop="8" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="1404" fromTop="16" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="1263" fromTop="18" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="1583" fromTop="25" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:Order.cs" caret="159" fromTop="4" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:Order.cs" caret="1696" fromTop="36" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:Order.cs" caret="537" fromTop="22" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:Order.cs" caret="864" fromTop="30" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:Order.cs" caret="1704" fromTop="35" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:Order.cs" caret="1085" fromTop="26" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:OrderItemRepository.cs" caret="389" fromTop="10" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:OrderItemRepository.cs" caret="503" fromTop="14" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:Order.cs" caret="1395" fromTop="28" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:OrderShould.cs" caret="0" fromTop="0" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:DomainObject.cs" caret="926" fromTop="5" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:OrderShould.cs" caret="284" fromTop="7" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:OrderShould.cs" caret="625" fromTop="19" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:OrderShould.cs" caret="1236" fromTop="31" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:OrderShould.cs" caret="768" fromTop="10" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:Ghosts/f:OrderShould.cs" caret="1673" fromTop="36" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:LazyInit/f:OrderLazy.cs" caret="287" fromTop="6" />
+      <File id="A7BD1DA1-CAFF-41BE-BAE8-63E5947D6E8C/d:ValueHolder/f:OrderFactory.cs" caret="234" fromTop="9" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="1172" />
+      <Item value="string" priority="127" />
+      <Item value="NewsStyleUriParser`0" priority="27" />
+      <Item value="ctor" priority="287" />
+      <Item value="CompanyName" priority="31" />
+      <Item value="Address" priority="31" />
+      <Item value="Test" priority="31" />
+      <Item value="void" priority="255" />
+      <Item value="var" priority="319" />
+      <Item value="new" priority="608" />
+      <Item value="OrderGood" priority="28" />
+      <Item value="order" priority="383" />
+      <Item value="Assert`0" priority="223" />
+      <Item value="OrderBad`0" priority="31" />
+      <Item value="int" priority="511" />
+      <Item value="return" priority="511" />
+      <Item value="class" priority="310" />
+      <Item value="Order`0" priority="128" />
+      <Item value="override" priority="191" />
+      <Item value="if" priority="191" />
+      <Item value="base" priority="127" />
+      <Item value="Customer" priority="89" />
+      <Item value="Id" priority="63" />
+      <Item value="id" priority="32" />
+      <Item value="testOrderId" priority="63" />
+      <Item value="obj" priority="31" />
+      <Item value="as" priority="31" />
+      <Item value="other" priority="63" />
+      <Item value="false" priority="63" />
+      <Item value="this" priority="63" />
+      <Item value="private" priority="223" />
+      <Item value="Customer`0" priority="95" />
+      <Item value="_customer" priority="95" />
+      <Item value="object" priority="95" />
+      <Item value="_value" priority="95" />
+      <Item value="_loader" priority="31" />
+      <Item value="value" priority="95" />
+      <Item value="List" priority="61" />
+      <Item value="Items" priority="31" />
+      <Item value="IValueLoader`0" priority="31" />
+      <Item value="OrderItem`0" priority="216" />
+      <Item value="_items" priority="127" />
+      <Item value="ValueHolder" priority="31" />
+      <Item value="valueHolder" priority="31" />
+      <Item value="List&lt;OrderItem&gt;" priority="28" />
+      <Item value="OrderVH" priority="28" />
+      <Item value="orderId" priority="31" />
+      <Item value="items" priority="63" />
+      <Item value="OrderFactory" priority="28" />
+      <Item value="DomainObject`0" priority="127" />
+      <Item value="enum" priority="30" />
+      <Item value="bool" priority="95" />
+      <Item value="Status" priority="159" />
+      <Item value="Ghost" priority="16" />
+      <Item value="Loaded" priority="33" />
+      <Item value="Loading" priority="33" />
+      <Item value="Debug`0" priority="31" />
+      <Item value="LoadStatus`0" priority="31" />
+      <Item value="IsGhost" priority="31" />
+      <Item value="interface" priority="30" />
+      <Item value="static" priority="31" />
+      <Item value="InstanceData`0" priority="31" />
+      <Item value="ArrayList" priority="57" />
+      <Item value="row" priority="127" />
+      <Item value="MarkLoaded`0" priority="63" />
+      <Item value="dataRow" priority="95" />
+      <Item value="protected" priority="95" />
+      <Item value="abstract" priority="31" />
+      <Item value="ArrayList`0" priority="157" />
+      <Item value="Load`0" priority="95" />
+      <Item value="_shipMethod" priority="63" />
+      <Item value="ShipMethod" priority="31" />
+      <Item value="LazyInit" priority="31" />
+      <Item value="IEnumerable`0" priority="31" />
+      <Item value="Lazy&lt;List&lt;OrderItem&gt;&gt;" priority="28" />
+      <Item value="OrderItem" priority="57" />
+      <Item value="Order" priority="58" />
+      <Item value="ITestCaseData`0" priority="31" />
+      <Item value="WasLoadCalled" priority="31" />
+      <Item value="true" priority="31" />
+      <Item value="TestOrderWrapper" priority="29" />
+      <Item value="GetDataRowCount" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LazyLoad.LazyInit.OrderGood">
+      <Item value="PrintLabel`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreEqual`0" priority="161" />
+      <Item value="IsFalse`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LazyLoad.LazyInit.Order">
+      <Item value="Customer" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LazyLoad.VirtualProxy.Order">
+      <Item value="Id" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LazyLoad.VirtualProxy.OrderProxy">
+      <Item value="Id" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="GetHashCode`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LazyLoad.ValueHolder.IValueLoader">
+      <Item value="Load`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LazyLoad.ValueHolder.OrderVH">
+      <Item value="SetItems`0" priority="26" />
+      <Item value="Id" priority="26" />
+      <Item value="Items" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="26" />
+      <Item value="AsReadOnly`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LazyLoad.ValueHolder.OrderFactory">
+      <Item value="CreateFromId`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="Assert`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ArrayList">
+      <Item value="Add`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LazyLoad.Ghosts.DomainObject">
+      <Item value="IsGhost" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Lazy`1">
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LazyLoad.Ghosts.OrderItemRepository">
+      <Item value="ListForOrder`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LazyLoad.Ghosts.OrderShould+TestOrderWrapper">
+      <Item value="ShipMethod" priority="26" />
+      <Item value="GetDataRowCount" priority="26" />
+      <Item value="Customer" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LazyLoad.Ghosts.Order">
+      <Item value="Items" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.7\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
