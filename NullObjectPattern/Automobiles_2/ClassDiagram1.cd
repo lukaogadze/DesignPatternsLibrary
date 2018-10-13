@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Automobiles.Autos.AutomobileBase">
+    <Position X="3" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Automobiles.Autos.AutomobileBase.NullAutomobile">
+        <TypeIdentifier>
+          <NewMemberFileName>Autos\AutomobileBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACACAAAAACAAAAAAAAAAAAQAAAAAAIAAIAAAAAAAAAA=</HashCode>
+      <FileName>Autos\AutomobileBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Automobiles.Autos.BMW335XI">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Autos\BMW335XI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Automobiles.Autos.MiniCooper">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Autos\MiniCooper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
