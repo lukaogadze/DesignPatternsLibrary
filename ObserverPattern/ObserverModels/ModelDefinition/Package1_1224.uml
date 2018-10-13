@@ -1,0 +1,1910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6e4f1e0e-5925-4262-8d35-90832fa6d74a"
+  name="IObserver"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="64d1fe5a-de46-48bf-a43d-27b05b574ef6"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Observer.IObserver"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="2e7be065-9001-45a8-a0df-e12b613b48f5"
+        name="Program"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0ed066cf-5490-4a1d-ac75-a19a971e1267"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=Program"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="90925731-850b-4679-b969-9b8ff4661747"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cf7a16f3-2479-45e0-aca4-6550a2e9bc9d">
+                <propertyInstance
+                  Id="3840d1ad-4dd6-48f5-a513-97f3448946ae"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c3e8ebc-b980-4c98-8298-434388101474">
+                <propertyInstance
+                  Id="e298dd0d-189c-4f86-aa75-debcc7626d39"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="841adfe4-3163-48e3-a9ae-d7f7f4916d75">
+                <propertyInstance
+                  Id="3c2c83f1-f522-4ccb-9873-8bbc1b93baf8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bc1451cc-7b3c-4acf-87ec-22b43d2913e1">
+                <propertyInstance
+                  Id="e2bbe80a-8099-43c9-bf88-d76e81353053"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="77148b8f-dac3-40ed-a8a0-0275630000c4">
+                <propertyInstance
+                  Id="60770167-94c5-4096-913e-ce0cd90ac226"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7bd10e32-d578-45bc-a051-761cc7974af8"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="aa5fe088-eb6b-413b-a3b5-17ec3c8b0cf0"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=Program Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2d11e3b1-e3e2-4bb1-9f8f-66ac02d319bc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c7e568c-f548-42ad-ab4b-5e3ac0f1494b">
+                    <propertyInstance
+                      Id="2c9da5c3-31f6-4c67-89c2-27c9bff0a46c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59c7cfd8-91df-4549-9545-b43569a3d44d">
+                    <propertyInstance
+                      Id="d51619f0-7015-4dde-af0f-be0f8c1ec905"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d7ecaed-d11a-4732-8c7a-3b16acd6feb1">
+                    <propertyInstance
+                      Id="564a2525-c205-45a8-af93-01adf41769bd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91821d76-0cf3-4634-a612-2a5dfaa94b2b">
+                    <propertyInstance
+                      Id="981ad9ca-2100-4305-bc03-78b0522ac7f3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef321b1b-55e6-4853-8519-4d341510728a">
+                    <propertyInstance
+                      Id="aa1e2fd7-81e4-4ac2-a768-0cedbea3bef5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="d6fed70b-7d4f-420c-aafa-70bc862a1370"
+            name="Main"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="42397ac4-0af9-42f3-aac2-d34c961a1a5b"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=Program Member=(Name=Main OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=String ArrayRank=1 ParentType=String))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a030e3f5-f533-4514-9ebd-7438c02c7b8f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60ec8e1f-c48f-4008-9f37-8baa612b22cb">
+                    <propertyInstance
+                      Id="8f460b53-cedd-44ad-a492-4f26db07a034"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="391e2156-75f6-4443-a1fe-ab9e2b7de0f4">
+                    <propertyInstance
+                      Id="4779f395-cf94-40eb-8ddb-7639fb59c35f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4274cc2e-46e0-4570-b1ff-d467c0b38c09">
+                    <propertyInstance
+                      Id="43fb8228-3843-4f78-a8fb-74b41519f9a6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="593aa530-d14c-4d3b-bfad-b6ef06d3d03d">
+                    <propertyInstance
+                      Id="4227f1ac-82a5-4bcc-9067-480fe9e15c8c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="128d5eed-26d4-47f2-9055-cf3c0b6e0469">
+                    <propertyInstance
+                      Id="1cecb2e8-a125-45d3-ad30-c05e75f0ee02"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6eba98b3-2ff3-4715-be14-42ea5be86a05"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="cae42574-bec3-4fb6-bdd5-6630a22d11ab"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=Program Member=(Name=Main OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=String ArrayRank=1 ParentType=String))]) ParameterIdentifier=args"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0ed9b250-10be-4436-bee9-c76c01d76914"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4fb538c1-7f6a-4bec-99e2-13c4af7d29c2"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ObserverModels.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ab5d2d25-6094-4408-8401-1085490b8299"
+        name="StockTicker"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="187c876b-af7c-430f-aca7-3a8f0554f499"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=StockTicker"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3c69b236-87d5-49dd-8049-56e4ed6409d2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="931db06e-4e71-4867-9406-75945a6c9111">
+                <propertyInstance
+                  Id="0768bbf9-0fb0-4f94-b3c2-be568586d8b7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="978936d7-c28d-435d-8be4-de6cacf47959">
+                <propertyInstance
+                  Id="4ce855d0-e196-4a15-907e-0b328b2cbc60"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="702df3bb-1ba4-41cc-956c-e8707034e0c1">
+                <propertyInstance
+                  Id="316686db-f19a-4782-ab4f-766dd468650f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b8bba0bd-76bd-4ce8-b616-7c88868e079f">
+                <propertyInstance
+                  Id="2df39b89-3e29-443e-ab0a-8f3aa6abe63b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1e9421e-cee2-43eb-8707-a0fe4ce45089">
+                <propertyInstance
+                  Id="d8bb98b1-62ee-4c76-a99b-252932ccbc2b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="0b8f2495-d581-4d85-9634-ae807212f102">
+            <interfaceMoniker
+              Id="026c86c3-8090-426b-ba5e-724d5e4716e0"
+              LastKnownName="IObservable&lt;Stock&gt;"
+              LastKnownLocation="Package2_1224.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="cf58a3a1-4ecc-4c1e-a6da-1b2f50f49f46"
+            isDerived="false"
+            sourceEndRoleName="StockTicker"
+            targetEndRoleName="Stock"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="85f55ea9-d53d-46ef-9cca-d2131b3ca07e"
+              LastKnownName="Stock"
+              LastKnownLocation="Package_1224.uml" />
+            <description>Property Stock references type Stock.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="755db358-5283-4158-a547-e3dcdbc1bf01"
+                  name="StockTicker"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="4463f8b2-b7fc-46a1-971c-a915ee1bf598"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="afb4c816-8cd3-4c28-b666-09357f8b3f6f"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2982cfd7-03cc-4869-bcea-5e01c595746f"
+                  name="Stock"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="40107467-ad60-47b5-8f41-e14fa1d42b97"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4cdfa75e-6c71-449b-aed6-b5ed941b57b2"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="1d310ddd-479b-4c47-933b-317b8a818db8"
+            name="Stock"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f49db485-ef57-4eeb-988f-0aa2d3559fd9"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=StockTicker Member=Stock"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d0ce6221-3695-4174-891a-31e608dfa021"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50235510-ddab-47ef-bb94-1539c8ffced2">
+                    <propertyInstance
+                      Id="8a9b0d0c-419d-4520-bd9c-1215324e2ea9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a65ef1c9-eb61-4c26-b44b-72041543a6fc">
+                    <propertyInstance
+                      Id="d2c9e6cf-f0c6-4d98-be5c-1d373e1c4ed5"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8d1fafc-f97e-4077-a3ec-a7cd9a2e6d4c">
+                    <propertyInstance
+                      Id="330ce853-aa8b-4507-8b84-d892cffa4b42"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2d889fb-a609-4020-8321-4ad6066eb4d8">
+                    <propertyInstance
+                      Id="49d1dfdf-52ed-4ff5-a2c2-f5a400c7013c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b51485f-fb75-4c10-8ec7-0e1c79cb933c">
+                    <propertyInstance
+                      Id="ec70b34b-902f-4a11-9805-4519ab2c2e48"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6aecaafb-2fd7-4fa5-a6cb-05d14c4fb734">
+                    <propertyInstance
+                      Id="83360ae4-b24a-4a29-868a-d31ee03f55fd"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="85f55ea9-d53d-46ef-9cca-d2131b3ca07e"
+                LastKnownName="Stock"
+                LastKnownLocation="Package_1224.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="164d17ed-73ab-422f-98b3-61f6f0066683"
+            name="observers"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c14d34bd-0836-4b36-924c-ece280f261eb"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=StockTicker Member=observers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f2b3168a-6c65-45f2-84d0-cacc6dbb60d7"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7d44f6f-23ab-40d5-8760-f09dbde6d43e">
+                    <propertyInstance
+                      Id="e8d33b55-8321-46de-ba92-245e6cbeff66"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb62d630-4827-40ed-b196-426c0127779a">
+                    <propertyInstance
+                      Id="6c85ef3d-127a-42f6-892b-f8df188df306"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2590bcbe-f98f-4b51-94a7-decd58911de4">
+                    <propertyInstance
+                      Id="94e6583c-c915-41f9-8331-9f63f930e17a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cc1ef2f-519a-4493-aecd-f472569bcb06">
+                    <propertyInstance
+                      Id="4d88d149-78e6-4fb2-adee-573e47fe3786"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3af74ea-a657-4a24-8597-e96b04879ac1">
+                    <propertyInstance
+                      Id="447f6309-cd49-4737-990f-40bf3bed6f52"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6502a90f-5d0c-4a51-a501-e2edb7003991"
+                LastKnownName="List&lt;IObserver&lt;Stock&gt;&gt;"
+                LastKnownLocation="Package4_1224.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="620a8f0e-a4e7-4a28-be91-373d537d0683"
+            name="stock"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5e8ef170-c4cf-46f9-837b-3e1fa604f8e7"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=StockTicker Member=stock"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e60ab1aa-01d0-4bad-947f-41fb460aec53"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d5ee667-c3ca-41ce-a1de-d8ac5084e349">
+                    <propertyInstance
+                      Id="cf32692d-d612-4197-ac8f-445a9a938516"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4611c414-15d3-46a4-8cba-d3ce213a2d12">
+                    <propertyInstance
+                      Id="5bf6aaf1-f513-414b-a482-72ea61b1893f"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="945a490b-1094-4fd7-8b75-b948cb6ea545">
+                    <propertyInstance
+                      Id="b056298a-f538-405c-a837-f30c4dd245ce"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="732ae8fa-5e86-449b-9168-74cc0f49707b">
+                    <propertyInstance
+                      Id="ec3f4a45-99ad-43e4-a378-3e9c35a435d0"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d2500a9-48d2-4f00-802e-4f67769b8ec8">
+                    <propertyInstance
+                      Id="c4ab2563-dfb4-4915-a2bc-e715d42782fe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="85f55ea9-d53d-46ef-9cca-d2131b3ca07e"
+                LastKnownName="Stock"
+                LastKnownLocation="Package_1224.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="03975267-af39-4ebc-8678-7cd53adfbea8"
+            name="Notify"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5cc89baf-4c5b-4d92-a536-7f0faa2f48b5"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=StockTicker Member=(Name=Notify OverloadingParameters=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5b173446-52be-45c2-9f8d-eaa90d10b9e4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f470c963-34b1-4b8a-81e7-b13e7ce3f15f">
+                    <propertyInstance
+                      Id="a2db8105-4fdf-4d67-aae2-e4c8ca0a755f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="278fcbe0-54dd-4237-908f-44593fab53b4">
+                    <propertyInstance
+                      Id="5daec7be-7937-4a2a-a25e-4a87f60ccb65"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="deb5e1d4-a1ba-4af5-a4a8-e176c1b3e124">
+                    <propertyInstance
+                      Id="024497e5-1c27-4283-a073-d27ac4634657"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36faa714-cfeb-4b42-811d-a2581c69aab9">
+                    <propertyInstance
+                      Id="648728dc-57df-4096-9b6e-d1e973f498fa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c92f5864-652c-4476-9f13-c51773b14c9f">
+                    <propertyInstance
+                      Id="7ac788c2-0cf6-4766-93d4-5ec625d4bbcf"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7cbfb061-3640-4888-8064-38206eea6d37"
+                  name="s"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4bb6c54d-2727-457d-b8d4-11b53d546345"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=StockTicker Member=(Name=Notify OverloadingParameters=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)]) ParameterIdentifier=s"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="85f55ea9-d53d-46ef-9cca-d2131b3ca07e"
+                      LastKnownName="Stock"
+                      LastKnownLocation="Package_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3a2291e1-46f2-4e7d-87a7-c3ebf579c3f7"
+            name="Stop"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e4aeaaca-6c50-4df2-a3cb-018928c68091"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=StockTicker Member=Stop"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="77c8daeb-8e15-4423-9652-70dc53af7c59"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccfdf851-2675-4661-b657-dba227c4d299">
+                    <propertyInstance
+                      Id="c11e6afe-8305-45e6-be78-785972121816"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c39fd4ea-6166-47ab-9699-42d03c1646d7">
+                    <propertyInstance
+                      Id="5a739ee8-5df8-4838-b18c-a9040e824100"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac5b08d7-b91c-4f61-a5f5-3cec6d141d1c">
+                    <propertyInstance
+                      Id="d62ee649-e2b6-49d7-9868-9e071c57446d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb97b5af-846a-4653-a98e-46e1f98c642b">
+                    <propertyInstance
+                      Id="08dee90b-bbae-43b2-81ce-ea25c4ab5d7b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c4a60dc-eb10-4e46-ac61-1e4836d25cb9">
+                    <propertyInstance
+                      Id="8f4cffc7-fd4b-4f7c-9dc2-739642182018"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="25eff4e7-1b6f-4388-88d4-b4ed44eab332"
+            name="Subscribe"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f98058a9-50f2-4503-b7b5-c5629c6ec9d1"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=StockTicker Member=(Name=Subscribe OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=IObserver GenericParameterCount=1 GenericArguments=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="61695541-9de6-4f4f-91ec-1864c7a21902"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f175a68c-9ec6-4730-b03e-9cfc079087cb">
+                    <propertyInstance
+                      Id="0a056c17-3177-46ae-8d6a-1e7d9edcc950"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72de3167-3140-4265-bfff-57530623d4d3">
+                    <propertyInstance
+                      Id="d7a0645b-644d-4c4d-9ec2-4c965401bf01"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d189ca8-4f02-45d2-b39f-da843a551996">
+                    <propertyInstance
+                      Id="2ae2192d-cf02-4a31-933f-db57b748acc0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ae0d393-4b99-402e-a483-6f7ada866011">
+                    <propertyInstance
+                      Id="bfa99488-dcc2-4a2e-9d17-0b93180297f9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22eef2ce-97db-4679-8404-72c3980e6235">
+                    <propertyInstance
+                      Id="6bd78876-2737-4010-878a-da9e093ec1e3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="66a78082-4bd6-49d9-a3a0-7d197933146a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="57d26040-1ba2-4d83-a22b-8f17007e624a"
+                      LastKnownName="IDisposable"
+                      LastKnownLocation="Package2_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="49ed2877-4823-4923-bd08-244c6d5763ac"
+                  name="observer"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e2556885-5206-418e-b0dd-1fb02ec7dc76"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=StockTicker Member=(Name=Subscribe OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=IObserver GenericParameterCount=1 GenericArguments=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)]))]) ParameterIdentifier=observer"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="6cde58ab-d045-4102-b291-1bba8f528c4d"
+                      LastKnownName="IObserver&lt;Stock&gt;"
+                      LastKnownLocation="Package2_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1f97b067-03aa-4b90-b3e1-643d9b65571b"
+            name="StockTicker"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b7da97fb-d52d-4923-b49a-5d16debd0d54"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=StockTicker Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fffb9ac2-d5fd-44e6-a56a-9c254286101a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63dd36ef-a0d8-45fe-a4b5-1ec0d30cf7c3">
+                    <propertyInstance
+                      Id="b56c88b3-9d07-4d08-ae79-c837f201e8bb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb2c3d11-f3f3-427d-b287-480e118c97fc">
+                    <propertyInstance
+                      Id="0820ab9d-4372-4579-b755-c56ac55204f8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bd122cc-30b7-4b6e-8f13-06253fd2abf1">
+                    <propertyInstance
+                      Id="3f667f32-6e53-4cf3-bd88-66826adaa443"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc1b3abf-bcc2-4ed8-a4a7-61a8af277b0e">
+                    <propertyInstance
+                      Id="d61f42e6-3b23-48c9-9e32-a78f50ad5653"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b1517aa-6233-49c0-ab89-16500697da52">
+                    <propertyInstance
+                      Id="492713d5-58c1-419f-99bb-1991e6fd68ec"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2ae6e038-5e49-48ed-8ee4-7b1eabab7de7"
+        name="Unsubscriber"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6557212c-12cb-4e07-adb9-e348ee424f2c"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=(Name=Unsubscriber ParentType=StockTicker)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cfb65113-a549-4e11-a899-2806162d264b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b310569c-3d59-4b84-bc76-4545d80fe8e9">
+                <propertyInstance
+                  Id="f9890231-d43f-4a50-a0ac-27b03c64edb1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="18820939-8c0f-4f1c-b0bb-73db0bee3713">
+                <propertyInstance
+                  Id="9a3068aa-5895-434a-bc64-f93902fb72a2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e57509d6-24e4-4875-b5c3-39adacdfe4d4">
+                <propertyInstance
+                  Id="5dbdaf33-0c69-4ed5-aa5a-cbc938ff5e12"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5e53aa6f-0a01-4aaf-8b2f-319dbf976424">
+                <propertyInstance
+                  Id="b2501cfb-10ce-432d-ba99-8e1219191f3d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7d18948-695a-427c-9bef-886fe21db3d5">
+                <propertyInstance
+                  Id="f5712a6f-c97e-4ec9-a157-43a1861746a5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="8f30e7a1-3c04-4d6c-a71f-85e8617c6708">
+            <interfaceMoniker
+              Id="57d26040-1ba2-4d83-a22b-8f17007e624a"
+              LastKnownName="IDisposable"
+              LastKnownLocation="Package2_1224.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="b00a21f8-cb33-4756-9a1b-f74d5c36977a"
+            name="_observer"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f5792a39-6c23-4244-ac18-b0e85e6fcd1d"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=(Name=Unsubscriber ParentType=StockTicker) Member=_observer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="90307538-e1b2-4c25-85ca-a0153ab97fed"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63199395-24bf-4a10-b087-afb2bc30e4d4">
+                    <propertyInstance
+                      Id="937ed710-125a-4148-9c92-1e178d2e507d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27047d3f-1e28-47fb-91f5-07356eb00fb8">
+                    <propertyInstance
+                      Id="041e30b1-c4d6-4328-b37e-8a6a6a007268"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b45b9f6-b0ba-4c4f-a0ad-2ef471f87e56">
+                    <propertyInstance
+                      Id="277ec601-529a-43a7-8ffc-63686ea62e65"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38129afc-ef81-42e2-8b57-ec723933dce3">
+                    <propertyInstance
+                      Id="0c7ed2d7-7006-4a2d-92bd-524eaf44cac9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0d07e9e-7595-41ec-997c-714c8440e665">
+                    <propertyInstance
+                      Id="7ec3012c-ec77-4dc4-bc26-38a40d70be57"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="6cde58ab-d045-4102-b291-1bba8f528c4d"
+                LastKnownName="IObserver&lt;Stock&gt;"
+                LastKnownLocation="Package2_1224.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="325c0f8f-2f70-4ebc-90d1-351e731bbcf9"
+            name="_observers"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d8f62e38-59a6-4c48-a518-ba59f22f33b3"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=(Name=Unsubscriber ParentType=StockTicker) Member=_observers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="890293b1-98ce-4a9e-92bb-c48fc1204719"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7536361-1de6-4a86-bc10-ef0a58659ffe">
+                    <propertyInstance
+                      Id="c226d281-bb74-420e-a712-d4d406057944"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="459a6c97-0417-4b68-85c0-dc8c534fa444">
+                    <propertyInstance
+                      Id="712138e0-bc18-4a18-acfa-18b4ee13cb53"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16a7b0e6-d6a8-4dbd-8a45-bde94a91d7e2">
+                    <propertyInstance
+                      Id="844cbdef-3e12-4c49-a96e-963beba31dd4"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c94e3e87-1002-4f44-aeba-6e6485f037c5">
+                    <propertyInstance
+                      Id="3721cd48-0ab2-464f-996a-b3c8cf3b716f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="001d32a0-559a-475c-9097-672d6c1bd5fd">
+                    <propertyInstance
+                      Id="524b9e39-a44b-44b8-9ae2-2a1d82edf08e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6502a90f-5d0c-4a51-a501-e2edb7003991"
+                LastKnownName="List&lt;IObserver&lt;Stock&gt;&gt;"
+                LastKnownLocation="Package4_1224.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="750581d3-d401-419b-9c07-3ba24fad6139"
+            name="Unsubscriber"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7cfd0333-4bca-4f76-b8af-d98c9b6cfb23"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=(Name=Unsubscriber ParentType=StockTicker) Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=IObserver GenericParameterCount=1 GenericArguments=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)]))])),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=IObserver GenericParameterCount=1 GenericArguments=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bdc09b64-00a9-4529-92d3-0ff422aadb14"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6e726eb-6201-4a16-a082-c7ea54f66320">
+                    <propertyInstance
+                      Id="645799dc-2013-4612-9f62-a3259b65e707"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92053680-af86-45d3-a0ec-c69104a0141c">
+                    <propertyInstance
+                      Id="9f8c7370-331a-49b0-898e-4f81c4d6856b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6792ae22-180d-42d7-adcf-01a07f2bdeff">
+                    <propertyInstance
+                      Id="cce32992-16ec-4e9b-9be7-5ba91dcf5426"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a91b26e-06de-4945-8532-1929e8216604">
+                    <propertyInstance
+                      Id="f7cbcfbd-93ae-433b-9594-0d56a3341a5e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a0ad1f5-beb8-4aef-b536-25ed32f44bfc">
+                    <propertyInstance
+                      Id="8152c034-5dae-44ae-b02b-252d5c87f2d0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="284ac519-5f68-426f-9f96-00a5dfe758b2"
+                  name="observers"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8e4eb514-d5b9-4ba5-8fd1-c10151beb27a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=(Name=Unsubscriber ParentType=StockTicker) Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=IObserver GenericParameterCount=1 GenericArguments=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)]))])),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=IObserver GenericParameterCount=1 GenericArguments=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)]))]) ParameterIdentifier=observers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6502a90f-5d0c-4a51-a501-e2edb7003991"
+                      LastKnownName="List&lt;IObserver&lt;Stock&gt;&gt;"
+                      LastKnownLocation="Package4_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b859e0a6-4f12-42e2-aff0-59329b6ed87d"
+                  name="observer"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="377fa8ba-666e-4b28-9def-17e11e6f69c9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=(Name=Unsubscriber ParentType=StockTicker) Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=IObserver GenericParameterCount=1 GenericArguments=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)]))])),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=IObserver GenericParameterCount=1 GenericArguments=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)]))]) ParameterIdentifier=observer"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="6cde58ab-d045-4102-b291-1bba8f528c4d"
+                      LastKnownName="IObserver&lt;Stock&gt;"
+                      LastKnownLocation="Package2_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1b0fbd06-9f3b-4e2e-973f-763c9a8537b7"
+            name="Dispose"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="963aad79-a6a3-4d10-8bce-5ca8b499a21e"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=(Name=Unsubscriber ParentType=StockTicker) Member=Dispose"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a4a7b4a3-2f0b-4911-bfe4-cf97a55025be"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fa1d9ae-017b-424d-afb1-a8f577b926fa">
+                    <propertyInstance
+                      Id="41a9041b-8334-4378-a75d-5c7e064efecd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad41c828-27f8-464c-99d9-12e69a349b3c">
+                    <propertyInstance
+                      Id="b5d2dfb4-2a18-41ef-a303-aa0b9a0f24ec"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef54f6ca-1ea7-4fb9-840e-8ecc17af48f5">
+                    <propertyInstance
+                      Id="f45f7f14-9cc5-40ce-a0ef-c9e41d2d7056"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="942e9f7c-4be4-45e3-abb9-f34a7a674847">
+                    <propertyInstance
+                      Id="c45aa4f5-c58a-4aa6-93d4-af766cb9a88c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f43bad1-df68-45b9-bcaa-4a85a92ce850">
+                    <propertyInstance
+                      Id="d1f07c8d-02b3-4eb0-b5cc-3402c1c44d2c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b23f0676-1778-4cac-bbb2-aef6e181b8be"
+        name="GoogleMonitor"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f6cec900-8b4a-4b48-9594-bde907dcc3e3"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=GoogleMonitor"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b9d3b70f-e1b2-4a3f-b00d-899dbecbd1fb"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3f584e09-b842-4570-84c3-0fc23f2482c5">
+                <propertyInstance
+                  Id="a50f0987-0aca-4cfc-9bee-ed5900ddffb3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0aff886a-bf4e-449d-9cd8-734ad624d413">
+                <propertyInstance
+                  Id="603b8769-a8c9-4071-931a-3551dcfb3e37"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc990ae8-9130-40f4-8bf2-42902a81da27">
+                <propertyInstance
+                  Id="ef90496d-ff0e-4d15-928b-71a388ed7942"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e28ab288-e128-414c-84fb-ef055876f15d">
+                <propertyInstance
+                  Id="111cc68f-2dd4-412e-8cb1-357284325003"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b567b8fa-b407-41f2-a29e-ea62e8f8c221">
+                <propertyInstance
+                  Id="896efe64-1709-451a-84da-6176452f9740"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="60b9f719-f873-4425-9587-65c3bd2b6d66">
+            <interfaceMoniker
+              Id="6cde58ab-d045-4102-b291-1bba8f528c4d"
+              LastKnownName="IObserver&lt;Stock&gt;"
+              LastKnownLocation="Package2_1224.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="23cf841a-f028-4871-8ce0-129614ba0577"
+            name="OnError"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ba701edf-4720-4846-ad16-ce0f3c7cf3d6"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=GoogleMonitor Member=(Name=OnError OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Exception)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a0999d80-d84c-4fc5-b759-8b68cb5ec03d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c781dd07-9b8f-4978-af40-717bbbc4811f">
+                    <propertyInstance
+                      Id="da607acc-1f96-434e-905c-48b6e12cf4ab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79c41466-fb0e-4f74-a05a-6c215eedbd60">
+                    <propertyInstance
+                      Id="024f0b82-b53d-4c69-8790-84d9dd381337"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a630a1d-2357-4c5e-a254-d635fd8c36b8">
+                    <propertyInstance
+                      Id="e6e27eea-c46f-40b8-858b-85cfb182404d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c29a911-e9a8-4fea-b4e9-94498bb41067">
+                    <propertyInstance
+                      Id="9ccbfc42-e585-4b37-b68c-34659937afef"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47775f47-f43d-4152-9abb-aad1a1f65280">
+                    <propertyInstance
+                      Id="931285d7-35b5-497d-b5b9-a1609dc88fe6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a16883b4-bf36-487b-b12b-4626a299c8ef"
+                  name="error"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="aa19d19a-5646-40fd-a761-26c98cc0304a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=GoogleMonitor Member=(Name=OnError OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Exception)]) ParameterIdentifier=error"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5e93c600-63c8-4dd9-9af7-83279c9b12e7"
+                      LastKnownName="Exception"
+                      LastKnownLocation="Package2_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f9ef297c-e8f0-44c7-83a8-f104f68e524b"
+            name="OnNext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2b03acd0-47ca-4c21-9d89-7c408f8e906a"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=GoogleMonitor Member=(Name=OnNext OverloadingParameters=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="badc1573-edf7-4bdf-8828-1c5b5dab8b29"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4ba7ccc-8484-412c-8a63-eedc0fbf891d">
+                    <propertyInstance
+                      Id="b4bcc4bd-8d44-48b2-821e-5ff1f3b55256"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05c74852-6f6c-4565-9577-99130cccaac8">
+                    <propertyInstance
+                      Id="40920cde-676b-4eae-80af-1857164528f3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d40e15bd-4553-4114-9a5d-a162bbab131e">
+                    <propertyInstance
+                      Id="5f0f60e8-c8c6-4289-829f-a80e583ec870"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="847044af-c088-4b0b-835d-1511f2c72779">
+                    <propertyInstance
+                      Id="3f1fef62-caa6-4adf-837f-09c8fddc7a1d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbdc2dfa-e6de-4a30-82e9-5a99676ea826">
+                    <propertyInstance
+                      Id="afb7c448-54e0-4793-bf44-4c8b80638307"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="20e3e330-4311-41c4-9a05-9a70adf6bfe6"
+                  name="value"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="35e61dd1-cf6d-42c4-b291-6afa0067f3ed"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=GoogleMonitor Member=(Name=OnNext OverloadingParameters=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)]) ParameterIdentifier=value"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="85f55ea9-d53d-46ef-9cca-d2131b3ca07e"
+                      LastKnownName="Stock"
+                      LastKnownLocation="Package_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="787ac250-0cb7-4d7f-a44c-615388e40cda"
+            name="OnCompleted"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="832a2fad-6c4c-4146-914c-fc7f10338caf"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=GoogleMonitor Member=OnCompleted"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e814a84f-2d5d-440b-8924-da0c654f16d2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cd3e530-f592-400c-a997-3eb5643d8149">
+                    <propertyInstance
+                      Id="62dfa631-327d-4a83-90de-bf442b12bb86"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02f0cb5e-4832-42fc-a372-94bd9fe20a12">
+                    <propertyInstance
+                      Id="df85d727-3cb3-4fdb-a34d-31d27dc81e99"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1875447-4785-4d56-be94-20c8ae682f28">
+                    <propertyInstance
+                      Id="4f596681-7b5e-46aa-9762-220e2e6197b0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba4ca43e-7bab-4fb7-bc71-0078f7277f14">
+                    <propertyInstance
+                      Id="b0ac6d19-3f95-409f-bf8f-2ee45e60979d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16541059-5b90-42a7-80a1-8ccabfd699de">
+                    <propertyInstance
+                      Id="d41e34cb-aad1-4ef7-8224-ccf98a7e0cf1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="491fb9d6-2a1b-44d0-aa2f-7a539dbb9c5a"
+            name="GoogleMonitor"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d09fb370-d7a8-4327-ba0c-3ce4d41d0a39"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=GoogleMonitor Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9f88d207-967f-457a-a7fa-d0664d14bb36"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="400f6828-229a-43ea-a498-af3f7665bdbe">
+                    <propertyInstance
+                      Id="044d1256-631f-4baa-abaf-2482949af998"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0f33ed3-838f-4dbb-9f93-7b835983402a">
+                    <propertyInstance
+                      Id="5fb72848-88f6-43e1-b5ae-019000bccecd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b033988-c999-4b6d-a888-b017d3b8e828">
+                    <propertyInstance
+                      Id="83c2ef64-fb01-4637-a30f-64b381b40120"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bd2e20b-bdfc-43bb-90f4-e9d043b16cbd">
+                    <propertyInstance
+                      Id="04ef93ac-8e3f-403a-8aca-978efcab7f50"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94f1e225-66f6-400f-b4d0-d25c8694c020">
+                    <propertyInstance
+                      Id="98f93823-bab9-40c0-8f2e-be44841ee349"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="28c63bbd-9441-4b0c-971f-eede47eb027b"
+        name="MicrosoftMonitor"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9f8dfc36-35ef-4b3a-9685-f565b086e63a"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=MicrosoftMonitor"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c1616ef3-fa93-4437-9f86-0fe7352990d9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6bb7d50f-08db-43d9-a79a-f62084c5a4ec">
+                <propertyInstance
+                  Id="9bb3ea3a-9ea7-4d0b-8bc3-9eb997060afe"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="adad4896-e925-48e9-bc10-d8df57cde24b">
+                <propertyInstance
+                  Id="a81fab55-ac47-4980-b33d-0e4d8a6d1670"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a885b3d6-568d-4ec5-8f57-0c31bd72276a">
+                <propertyInstance
+                  Id="38a21198-ee33-4468-8d89-9700e923f129"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d53bdeb1-1da4-45a2-9d75-6fa5a01d2624">
+                <propertyInstance
+                  Id="23f734dd-fcdb-4aa7-8b96-e1499fc9b6a7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1715e1a9-b8ca-4934-b5d7-28190e2d1881">
+                <propertyInstance
+                  Id="a67af1c8-5691-4736-89f5-8ea982185bbd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="1ae39b83-b211-4a39-98cf-2ba546bbcbc7">
+            <interfaceMoniker
+              Id="6cde58ab-d045-4102-b291-1bba8f528c4d"
+              LastKnownName="IObserver&lt;Stock&gt;"
+              LastKnownLocation="Package2_1224.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1cd89ba2-94cf-43c7-aa61-036de7f5e141"
+            name="OnError"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6579acd4-1252-4234-bb50-ab108797cd88"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=MicrosoftMonitor Member=(Name=OnError OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Exception)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7c4c7c72-337e-4919-b14b-0c4019a81000"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d9d80c4-ca31-48a7-bdda-056e7381a188">
+                    <propertyInstance
+                      Id="76dffc77-33a0-4b68-8199-6eb1e7b81d4d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9cb9e80-80f5-4882-b7d3-648e281f71e9">
+                    <propertyInstance
+                      Id="ad43be0f-6087-4dc1-9a95-e831677c8801"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25eca6b7-4924-4807-b7dc-19dbcded257f">
+                    <propertyInstance
+                      Id="e97951ad-6a34-41f1-8ed9-e491365b3c31"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ac36389-7711-447d-b92c-4335f09ec676">
+                    <propertyInstance
+                      Id="e08fae29-ec56-499e-a45c-591b321c2465"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da0ff88e-81d2-4a16-a71b-6078f42dc63a">
+                    <propertyInstance
+                      Id="27188b44-e2e2-4dd1-a935-0a9ac81434f2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bdf938c3-d25d-4fca-a83c-4cb06a35a655"
+                  name="error"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6400a4a1-766f-4592-aa1e-4db66ab2f498"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=MicrosoftMonitor Member=(Name=OnError OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Exception)]) ParameterIdentifier=error"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5e93c600-63c8-4dd9-9af7-83279c9b12e7"
+                      LastKnownName="Exception"
+                      LastKnownLocation="Package2_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1db6cfd7-faf4-4e95-bdb3-fe0069c272d3"
+            name="OnNext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ca2d5347-6e4b-40a5-ab0f-f512ae9bb8aa"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=MicrosoftMonitor Member=(Name=OnNext OverloadingParameters=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="864b02cf-6f9a-4cc4-9afd-ed3253928209"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ded33add-16be-4e05-9887-cd1a25e3d0f0">
+                    <propertyInstance
+                      Id="75f73556-b03a-4a1b-83a1-7ba62a8f0000"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88eaf039-bfed-45eb-b8a4-907d9783b521">
+                    <propertyInstance
+                      Id="c3478a00-7cad-44ac-9490-02981ad1fc56"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05d9f0f8-4020-49fa-a208-f7bdb2711d42">
+                    <propertyInstance
+                      Id="d29c8951-9955-4d81-a93b-92d550bade20"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c40bccc-9edc-4b19-b43f-ab71e9b09171">
+                    <propertyInstance
+                      Id="67f617af-21d4-4b02-96a6-d24693a52757"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea64c193-7aa5-4bc9-889f-4e77eefb11b3">
+                    <propertyInstance
+                      Id="e660ed4a-6788-4a93-bcce-f176486eb1d0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="418a0895-f793-4b88-95e6-b5deb8b1895c"
+                  name="value"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ae6894fe-f5cf-4584-9066-13d94074d9a0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=MicrosoftMonitor Member=(Name=OnNext OverloadingParameters=[(Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer Type=Stock)]) ParameterIdentifier=value"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="85f55ea9-d53d-46ef-9cca-d2131b3ca07e"
+                      LastKnownName="Stock"
+                      LastKnownLocation="Package_1224.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="642a9ce3-16bd-4b60-8e18-a94ab9253f3d"
+            name="OnCompleted"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ac4ad1bc-811b-4fd6-978f-a24d6d203941"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=MicrosoftMonitor Member=OnCompleted"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="643b511b-ef3c-4a39-8bf3-4ec1a9c7f9f4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2930d70-565d-47b7-b0de-698e3de36256">
+                    <propertyInstance
+                      Id="8cb1ceb0-7f72-4a67-baff-998645573a05"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="528c356a-713f-4b79-8047-d21cceab4897">
+                    <propertyInstance
+                      Id="582ae06a-1dcb-4c82-aabc-b9f9a6f5c242"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a80108b0-7e31-4d98-90d9-7b2c345dd2e5">
+                    <propertyInstance
+                      Id="a2b73d4a-b112-41d9-9139-006fe951f328"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de9ba6c2-91f0-44ee-8320-baf7280caf7d">
+                    <propertyInstance
+                      Id="90ee29d8-7cb9-4e50-8294-be4f83c73bf9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ff530e8-6380-46ee-8ed6-9cbff3f049a8">
+                    <propertyInstance
+                      Id="0fac934a-42be-44c7-b99f-03e57581055d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c82e3a83-2cf7-47e3-a2d9-757b4b9254fe"
+            name="MicrosoftMonitor"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e07c12db-4d28-43d4-8373-cf8d926aef48"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-observer/Observer/bin/Debug/Observer.exe Namespace=Observer.IObserver Type=MicrosoftMonitor Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6077fe3d-785a-4e1a-9284-765630bf43ee"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3088ca14-4cec-4e51-a39b-cf41d5193c9d">
+                    <propertyInstance
+                      Id="459e8175-1251-49f5-b915-2485bd37d8c1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b75f556e-1409-48c7-9306-c08edf1940a5">
+                    <propertyInstance
+                      Id="c966d14a-7364-4238-8717-cf1121ce0ea9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d98912a2-6ca9-4d2a-aa71-fcfbf4f626af">
+                    <propertyInstance
+                      Id="e299290a-faea-4380-9f5f-8b0f34547274"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f04ded9e-35ca-4dea-9dec-612a1218b85b">
+                    <propertyInstance
+                      Id="d4d0fe0d-0f1f-422c-9fe3-64e2f85e1a7e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d584b03-646b-4fd9-a273-c6158b5761bb">
+                    <propertyInstance
+                      Id="2127cd6c-5055-4a8e-80c4-03665664e35a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Stewart/AppData/Local/Microsoft/VisualStudio/10.0/Extensions/Microsoft/Visualization and Modeling Feature Pack/1.0/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log">
+  <Message Timestamp="2010-11-14T14:36:14" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'c5da797a-ef63-45c6-96b7-9d679a17c436' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer' -  (Package)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Stock' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional' -  (Package)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::AbstractObserver' -  (Class)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::AbstractObserver::AbstractObserver' -  (Operation)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::AbstractObserver::Update' -  (Operation)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::AbstractSubject' -  (Class)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::AbstractSubject::AbstractSubject' -  (Operation)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::AbstractSubject::Notify' -  (Operation)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::AbstractSubject::observers' -  (Property)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::AbstractSubject::Register' -  (Operation)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::AbstractSubject::Register::observer' -  (Parameter)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::AbstractSubject::Unregister' -  (Operation)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::AbstractSubject::Unregister::observer' -  (Parameter)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::GoogleObserver' -  (Class)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::GoogleObserver::DataSource' -  (Property)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::GoogleObserver::GoogleObserver' -  (Operation)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::GoogleObserver::GoogleObserver::subj' -  (Parameter)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::GoogleObserver::Update' -  (Operation)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::MicrosoftObserver' -  (Class)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::MicrosoftObserver::DataSource' -  (Property)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::MicrosoftObserver::MicrosoftObserver' -  (Operation)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::MicrosoftObserver::MicrosoftObserver::subj' -  (Parameter)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::MicrosoftObserver::Update' -  (Operation)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::StockTicker' -  (Class)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::StockTicker::stock' -  (Property)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::StockTicker::Stock' -  (Property)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::Observer::Traditional::StockTicker::StockTicker' -  (Operation)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::System' -  (Package)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::System::Collections' -  (Package)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ObserverModels::System::Collections::Generic::List&lt;AbstractObserver&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ObserverModels::Observer::Traditional::MicrosoftObserver to ObserverModels::Observer::Traditional::AbstractObserver (Generalization)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ObserverModels::Observer::Traditional::StockTicker to ObserverModels::Observer::Stock (Association)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ObserverModels::Observer::Traditional::StockTicker to ObserverModels::Observer::Traditional::AbstractSubject (Generalization)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ObserverModels::Observer::Traditional::GoogleObserver to ObserverModels::Observer::Traditional::AbstractObserver (Generalization)" />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="High" Text="(5) type(s) fully reverse engineered." />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="High" Text="(3) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2010-11-14T14:36:15" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

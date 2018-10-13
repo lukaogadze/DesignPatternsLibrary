@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Observer.Traditional.AbstractSubject">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAABAABAAAAAAAAAEAA=</HashCode>
+      <FileName>Traditional\AbstractSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Traditional.AbstractObserver">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Traditional\AbstractObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Traditional.GoogleObserver">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Traditional\GoogleObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Traditional.MicrosoftObserver">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Traditional\MicrosoftObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Traditional.StockTicker">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Traditional\StockTicker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="7.8" />
+</ClassDiagram>
