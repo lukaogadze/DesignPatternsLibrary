@@ -1,0 +1,297 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:packages.config" caret="0" fromTop="0" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:NumberGenerator.cs" caret="63" fromTop="1" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Interfaces/f:IDelayConfig.cs" caret="397" fromTop="14" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Interfaces/f:INumbersToTextFile.cs" caret="166" fromTop="5" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/f:NumbersToTextFileAsync.cs" caret="1387" fromTop="38" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Interfaces/f:IFileLogger.cs" caret="156" fromTop="5" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:Factories/f:DoubleCheckLockedSingletonFileLoggerFactory.cs" caret="194" fromTop="4" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Interfaces/f:IFileLoggerFactory.cs" caret="121" fromTop="4" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:Factories/f:LockedSingletonFileLoggerFactory.cs" caret="324" fromTop="10" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:Factories/f:SingletonFileLoggerFactory.cs" caret="316" fromTop="11" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:Factories/f:LazySingletonFileLoggerFactory.cs" caret="316" fromTop="10" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:TestDelayConfig.cs" caret="53" fromTop="1" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:LazySingletonShould.cs" caret="347" fromTop="11" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Sample/f:LazySingleton.cs" caret="0" fromTop="0" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Sample/f:Singleton.cs" caret="296" fromTop="13" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:Factories/f:InstanceFileLoggerFactory.cs" caret="292" fromTop="9" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/f:NumbersToTextFile.cs" caret="739" fromTop="21" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:GivenSingleThreadFileLoggerShould.cs" caret="896" fromTop="18" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:FileLoggerDoubleCheckLocking.cs" caret="458" fromTop="13" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:FileLoggerLazySingleton.cs" caret="264" fromTop="8" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:FileLoggerSingleton.cs" caret="325" fromTop="9" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:FileLoggerThreadSafeSingleton.cs" caret="486" fromTop="12" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:GivenMultipleThreadsFileLoggerShould.cs" caret="1217" fromTop="15" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:SingletonShould.cs" caret="454" fromTop="16" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:IoC.cs" caret="282" fromTop="11" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:FileLogger.cs" caret="0" fromTop="0" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:UnityShould.cs" caret="976" fromTop="30" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:UnityDependencyResolver.cs" caret="779" fromTop="25" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:BaseFileLogger.cs" caret="452" fromTop="12" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:Program.cs" caret="1387" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Sample/f:Singleton.cs" caret="135" fromTop="5" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:FileLogger.cs" caret="237" fromTop="8" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:GivenMultipleThreadsFileLoggerShould.cs" caret="564" fromTop="10" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:GivenMultipleThreadsFileLoggerShould.cs" caret="904" fromTop="20" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:GivenSingleThreadFileLoggerShould.cs" caret="561" fromTop="8" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:GivenSingleThreadFileLoggerShould.cs" caret="896" fromTop="18" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:FileLoggerSingleton.cs" caret="325" fromTop="9" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:FileLoggerThreadSafeSingleton.cs" caret="486" fromTop="12" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:FileLoggerLazySingleton.cs" caret="264" fromTop="8" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:FileLoggerDoubleCheckLocking.cs" caret="458" fromTop="13" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/d:Impl/d:FileLoggers/f:BaseFileLogger.cs" caret="398" fromTop="12" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:SingletonShould.cs" caret="454" fromTop="37" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:SingletonShould.cs" caret="454" fromTop="40" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:SingletonShould.cs" caret="454" fromTop="30" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:SingletonShould.cs" caret="454" fromTop="16" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:UnityShould.cs" caret="388" fromTop="11" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:UnityShould.cs" caret="308" fromTop="9" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:UnityShould.cs" caret="874" fromTop="24" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:UnityShould.cs" caret="1291" fromTop="35" />
+      <File id="B0AF317E-C0EB-4F6E-8921-46C37FF929ED/f:UnityShould.cs" caret="594" fromTop="20" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:Program.cs" caret="1546" fromTop="55" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:Program.cs" caret="1546" fromTop="44" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:Program.cs" caret="1546" fromTop="31" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:UnityDependencyResolver.cs" caret="244" fromTop="7" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:Program.cs" caret="1546" fromTop="15" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:Program.cs" caret="1546" fromTop="19" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:Program.cs" caret="1546" fromTop="31" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:Program.cs" caret="1546" fromTop="6" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:Program.cs" caret="1546" fromTop="46" />
+      <File id="E036E380-C6D7-4CAD-A6A6-2C47C25EFACF/f:Program.cs" caret="1095" fromTop="13" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.7\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Console`0" priority="2" />
+      <Item value="var" priority="12" />
+      <Item value="new" priority="15" />
+      <Item value="System" priority="0" />
+      <Item value="IO" priority="0" />
+      <Item value="File`0" priority="4" />
+      <Item value="FileLogger" priority="0" />
+      <Item value="logfile" priority="3" />
+      <Item value="public" priority="36" />
+      <Item value="static" priority="14" />
+      <Item value="int" priority="13" />
+      <Item value="IEnumerable" priority="1" />
+      <Item value="class" priority="10" />
+      <Item value="ctor" priority="5" />
+      <Item value="this" priority="2" />
+      <Item value="yield return" priority="0" />
+      <Item value="_seed" priority="0" />
+      <Item value="NumberGenerator`0" priority="0" />
+      <Item value="generator" priority="1" />
+      <Item value="foreach" priority="0" />
+      <Item value="if" priority="5" />
+      <Item value="integer" priority="0" />
+      <Item value="break" priority="0" />
+      <Item value="void" priority="21" />
+      <Item value="string" priority="10" />
+      <Item value="private" priority="23" />
+      <Item value="StreamWriter`0" priority="3" />
+      <Item value="_fileStream" priority="0" />
+      <Item value="_filePath" priority="4" />
+      <Item value="return" priority="16" />
+      <Item value="FileLogger`0" priority="2" />
+      <Item value="const" priority="1" />
+      <Item value="filePath" priority="3" />
+      <Item value="logger" priority="1" />
+      <Item value="ThreadStaticAttribute`0" priority="1" />
+      <Item value="FileLoggerSingleton`0" priority="2" />
+      <Item value="GetFileStream`0" priority="2" />
+      <Item value="FileLoggerSingleton" priority="2" />
+      <Item value="interface" priority="2" />
+      <Item value="IFileLogger`0" priority="11" />
+      <Item value="readonly" priority="3" />
+      <Item value="_logfile" priority="5" />
+      <Item value="IUnityContainer" priority="0" />
+      <Item value="container" priority="4" />
+      <Item value="null" priority="1" />
+      <Item value="myLogger" priority="3" />
+      <Item value="IUnityContainer`0" priority="2" />
+      <Item value="GetLogger`0" priority="1" />
+      <Item value="WriteNumbersToFile`0" priority="0" />
+      <Item value="Action`0" priority="0" />
+      <Item value="object" priority="3" />
+      <Item value="lock" priority="1" />
+      <Item value="_instance" priority="1" />
+      <Item value="LazySingletonFileLogger`0" priority="3" />
+      <Item value="Nested`0" priority="1" />
+      <Item value="internal" priority="1" />
+      <Item value="LazySingletonFileLogger" priority="0" />
+      <Item value="FileLoggerThreadSafeSingleton`0" priority="0" />
+      <Item value="DoubleCheckLockingFileLogger`0" priority="0" />
+      <Item value="_useParallel" priority="1" />
+      <Item value="else" priority="1" />
+      <Item value="Func" priority="1" />
+      <Item value="_fileLoggerFactory" priority="0" />
+      <Item value="bool" priority="1" />
+      <Item value="false" priority="0" />
+      <Item value="ShouldCloseAfterEachUse" priority="0" />
+      <Item value="INumbersToTextFile`0" priority="5" />
+      <Item value="_container" priority="14" />
+      <Item value="typeof" priority="0" />
+      <Item value="NumbersToTextFile`0" priority="1" />
+      <Item value="_numbersToTextFile" priority="4" />
+      <Item value="NumbersToTextFileAsync`0" priority="0" />
+      <Item value="InjectionMember" priority="0" />
+      <Item value="IFileLoggerFactory`0" priority="3" />
+      <Item value="InstanceFileLoggerFactory`0" priority="0" />
+      <Item value="is" priority="0" />
+      <Item value="TestInitialize" priority="1" />
+      <Item value="SingletonFileLoggerFactory`0" priority="1" />
+      <Item value="IConstants`0" priority="1" />
+      <Item value="default" priority="0" />
+      <Item value="DefaultConstants`0" priority="0" />
+      <Item value="_constants" priority="0" />
+      <Item value="BaseFileLogger`0" priority="5" />
+      <Item value="base" priority="3" />
+      <Item value="_delayMilliseconds" priority="6" />
+      <Item value="value" priority="3" />
+      <Item value="_maxIntegerToWrite" priority="2" />
+      <Item value="LogNumbers`0" priority="0" />
+      <Item value="delayConfig" priority="0" />
+      <Item value="DefaultDelayConfig`0" priority="1" />
+      <Item value="IDelayConfig`0" priority="3" />
+      <Item value="TestDelayConfig`0" priority="0" />
+      <Item value="ResolveEventArgs`0" priority="0" />
+      <Item value="UnityContainer`0" priority="1" />
+      <Item value="IoC`0" priority="1" />
+      <Item value="override" priority="0" />
+      <Item value="BaseFileLogger" priority="0" />
+      <Item value="virtual" priority="0" />
+      <Item value="TestCleanup" priority="0" />
+      <Item value="FileLoggerDoubleCheckLocking`0" priority="0" />
+      <Item value="Singleton`0" priority="5" />
+      <Item value="myObject" priority="0" />
+      <Item value="Single`0" priority="0" />
+      <Item value="singleton" priority="0" />
+      <Item value="SomeOtherMethod`0" priority="0" />
+      <Item value="Assert`0" priority="0" />
+      <Item value="firstInstance" priority="1" />
+      <Item value="secondInstance" priority="1" />
+      <Item value="_someValue" priority="0" />
+      <Item value="ChildClass`0" priority="1" />
+      <Item value="UnityContainer" priority="1" />
+      <Item value="Ignore" priority="0" />
+      <Item value="UnityDependencyResolver`0" priority="2" />
+      <Item value="_dependencyResolver" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="1" />
+      <Item value="Write`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="AppendText`0" priority="3" />
+      <Item value="Delete`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamWriter">
+      <Item value="WriteLine`0" priority="0" />
+      <Item value="Close`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileLogger.NumberGenerator">
+      <Item value="Integers`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileLogger.FileLogger">
+      <Item value="WriteLineToFile`0" priority="0" />
+      <Item value="CloseFile`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.Unity.IUnityContainer">
+      <Item value="RegisterInstance`0" priority="0" />
+      <Item value="RegisterType`0" priority="7" />
+      <Item value="RegisterSingleton`1" priority="0" />
+      <Item value="Resolve`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FileLogger.Impl.FileLoggerThreadSafeSingleton">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FileLogger.Impl.DoubleCheckLockingFileLogger">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FileLogger.Impl.LazySingletonFileLogger">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Func`1">
+      <Item value="Invoke`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileLoggerSample.Interfaces.INumbersToTextFile">
+      <Item value="WriteNumbersToFile`0" priority="0" />
+      <Item value="DelayMilliseconds" priority="1" />
+      <Item value="MaxIntegerToWrite" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileLoggerSample.IFileLoggerFactory">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileLoggerSample.IConstants">
+      <Item value="DelayMilliseconds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileLoggerSample.Interfaces.IFileLogger">
+      <Item value="DelayMilliseconds" priority="1" />
+      <Item value="Reset`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FileLoggerSample.IoC">
+      <Item value="Resolve`1" priority="0" />
+      <Item value="Initialize`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.StreamWriter">
+      <Item value="Synchronized`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FileLoggerSample.Impl.FileLoggers.FileLoggerDoubleCheckLocking">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileLoggerSample.Impl.FileLoggers.FileLoggerDoubleCheckLocking">
+      <Item value="Reset`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.TextWriter">
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FileLoggerSample.Impl.Singleton">
+      <Item value="Instance" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileLoggerSample.Impl.Singleton">
+      <Item value="DoStuff`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FileLoggerSample.Sample.Singleton">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="AreSame`0" priority="0" />
+      <Item value="AreNotSame`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Tests.SingletonShould+ChildClass">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.Unity.UnityContainer">
+      <Item value="Resolve`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FileLoggerSample.UnityDependencyResolver">
+      <Item value="EnsureDependenciesRegistered`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
