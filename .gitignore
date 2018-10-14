@@ -3,3 +3,9 @@
 
 bin
 obj
+
+_ReSharper.State
+_ReSharper.*
+Backup
+packages
+UpgradeLog.htm

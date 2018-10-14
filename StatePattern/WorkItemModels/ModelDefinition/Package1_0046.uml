@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="511d065a-9a20-4e70-ba77-8229a9411844"
+  name="WorkItemDomain"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="b511e01a-9091-4054-a254-557a80709406"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=WorkItemDomain"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="a5322b92-129a-477c-88e3-cd679b7a365d"
+        name="IUnitOfWork"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="b9aa2c4a-1a2e-404a-bd1b-6b8ed8abefab"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/WorkItemDomain/bin/Debug/WorkItemDomain.dll Namespace=WorkItemDomain Type=IUnitOfWork"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="42a795bc-10a2-4e89-ac89-57aee0f1e495"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa21468b-5ddb-4bfc-941c-3126be7bf901">
+                <propertyInstance
+                  Id="716eb020-d688-4540-8026-508217a7e131"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8abc8598-b9ad-443c-8a67-e37ed84d2d7e">
+                <propertyInstance
+                  Id="3ecea7e7-7f52-4e35-b166-45a9b82ac651"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4691f93d-0234-42c7-9409-bd16d0c5d553">
+                <propertyInstance
+                  Id="c7975ee3-18ad-451a-b040-ce5862134233"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a772c45-7d22-41c2-b183-e0b7af5c5366">
+                <propertyInstance
+                  Id="a15201bd-3d20-42f3-9d0e-1883cfb61585"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="45d17876-5fe8-4948-9faa-e971a247cf85"
+        name="IEntity"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="a9326d3a-f306-4c46-b261-a92b10fa8dba"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/WorkItemDomain/bin/Debug/WorkItemDomain.dll Namespace=WorkItemDomain Type=IEntity"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a91409d9-ec47-4a6a-aeda-93a26de2db15"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88ce1e2b-510c-4283-be7d-7cf5d46c0e8b">
+                <propertyInstance
+                  Id="89a24364-8559-4de4-b41d-cd93e2cf611b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b6db6162-77d4-4d91-9283-8d125657a3c9">
+                <propertyInstance
+                  Id="57a2029f-4278-45be-a919-0831bb13f4f0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="93b429c1-ea73-45f4-bee4-d3325c47b358">
+                <propertyInstance
+                  Id="ea24bc6b-527a-4eb9-827e-89f552a1f2b9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e06aa645-bd6c-4de9-ac1e-1d31963903d8">
+                <propertyInstance
+                  Id="f7e830a3-1a60-457b-bec1-785b2f508476"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

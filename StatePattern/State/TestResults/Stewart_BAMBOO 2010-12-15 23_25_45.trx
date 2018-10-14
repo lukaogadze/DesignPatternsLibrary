@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5de8404e-772c-4cfd-9dc4-a7e8ee43c199" name="Stewart@BAMBOO 2010-12-15 23:25:45" runUser="Bamboo\Stewart" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="85ae9a2e-8e5f-4e76-b3d4-cd6049cda4b6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="Stewart_BAMBOO 2010-12-15 23_25_45">
+      <DeploymentItem filename="C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\WorkItemDomain\bin\Debug\WorkItemDomain.dll" />
+      <DeploymentItem filename="C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\bin\Debug\State.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Code Coverage">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-15T23:25:45.0296977-05:00" queuing="2010-12-15T23:25:45.2767118-05:00" start="2010-12-15T23:25:45.3267147-05:00" finish="2010-12-15T23:25:46.1627625-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="21" executed="21" error="0" failed="7" timeout="0" aborted="0" inconclusive="14" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="BAMBOO" outcome="Warning" timestamp="2010-12-15T23:25:45.1687057-05:00">
+        <Text>Warning: Disabling deployment is ignored for the test run because code coverage is enabled in the active test settings.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InitTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="b74310b1-3c1e-5a19-d460-b4836134a1a3">
+      <Execution id="56cfa63a-34fd-4c8c-8d83-1f960668febb" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitTest" />
+    </UnitTest>
+    <UnitTest name="OpenTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="4e544f35-5f3f-439c-16f7-5df1d0515dfb">
+      <Execution id="2368828b-f6f4-4ab1-8593-829cad316f0f" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenTest" />
+    </UnitTest>
+    <UnitTest name="StateTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="27409ce1-83ae-053c-1f87-9ac026ec6576">
+      <Execution id="ca894213-138b-4f8f-9f2c-e2ba259e3f53" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StateTest" />
+    </UnitTest>
+    <UnitTest name="ReadXmlTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="3c068555-f198-0487-55d1-ca2d8312450e">
+      <DeploymentItems>
+        <DeploymentItem filename="State.exe" />
+      </DeploymentItems>
+      <Execution id="9e5a2ecd-79cf-4443-a844-f4286f4b92dd" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.XmlUnitOfWorkTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadXmlTest" />
+    </UnitTest>
+    <UnitTest name="MainTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="0e57238b-d3ec-9180-a785-92e2df5617cc">
+      <Execution id="401c962c-34b3-4125-b3a0-5b3e135316bd" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.ProgramTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainTest" />
+    </UnitTest>
+    <UnitTest name="EntitiesTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="df176653-3168-2e8c-7053-a297e4360292">
+      <Execution id="6f46dc4a-d5a3-4615-9035-9b5a154be84c" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.XmlUnitOfWorkTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EntitiesTest" />
+    </UnitTest>
+    <UnitTest name="WorkItemConstructorTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="685e60cf-66a2-1642-1257-21df7b3e9785">
+      <Execution id="b0c71a11-fcb8-448b-8817-97dad45636d7" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItemConstructorTest" />
+    </UnitTest>
+    <UnitTest name="VerifyTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="333cadb6-3d97-02d3-48d3-0501c80bb6a7">
+      <Execution id="c6f42823-f4fd-4d34-8477-39b240df936c" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerifyTest" />
+    </UnitTest>
+    <UnitTest name="CommitTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="84780e3c-644b-f0c9-9967-3065a833a3f0">
+      <Execution id="dae5ef65-0e79-409c-a75f-91994f09d6c8" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.XmlUnitOfWorkTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommitTest" />
+    </UnitTest>
+    <UnitTest name="DescriptionTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="5a3fbc8c-27e6-c24f-eb3b-6f9cacd9868e">
+      <Execution id="0df518c3-36e0-41be-b07a-fd58e067522f" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DescriptionTest" />
+    </UnitTest>
+    <UnitTest name="PrintTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="c9c8dee1-b45b-deb1-8e45-c408e8b7f05c">
+      <Execution id="251fb3b7-554e-4317-ab93-4924c120d294" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PrintTest" />
+    </UnitTest>
+    <UnitTest name="FindByIdTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="d4003831-8ec5-73a4-8bde-6a2b68c4ed61">
+      <Execution id="b3115aba-dd7c-4e84-bba4-4120097754f1" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindByIdTest" />
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="787300c5-c0c5-a677-77c0-fa2d272085d6">
+      <Execution id="52f5354f-241d-44b1-8d93-b8423f69bec1" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+    </UnitTest>
+    <UnitTest name="PrintUsageTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="169719bd-cf9c-d170-143d-90623ee1fc70">
+      <DeploymentItems>
+        <DeploymentItem filename="State.exe" />
+      </DeploymentItems>
+      <Execution id="da733707-591d-48d9-8182-9dbec7e0e616" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.ProgramTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PrintUsageTest" />
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="edda0a2b-6f4d-d5e8-f21d-af792c033a2d">
+      <Execution id="2ef101ef-f434-4b01-bfd8-32a6b5f8f5cf" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+    </UnitTest>
+    <UnitTest name="XmlUnitOfWorkConstructorTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="b7f6dfdb-3723-c809-e08a-804ee6a6ba3b">
+      <Execution id="22aa3656-ed3c-48e5-9fb6-34642cef3a66" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.XmlUnitOfWorkTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="XmlUnitOfWorkConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ResolveTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="74741d02-2200-dfb2-206b-82eade2e48fd">
+      <Execution id="13962928-c8ff-4f3a-a911-96677184bd09" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResolveTest" />
+    </UnitTest>
+    <UnitTest name="IdTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="d8392b45-02b7-9bed-df18-50ade92abdfa">
+      <Execution id="26d06720-6dff-47b9-8117-85a5772044d0" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IdTest" />
+    </UnitTest>
+    <UnitTest name="ProgramConstructorTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="9825a538-a645-f297-fc64-d65305038cc9">
+      <Execution id="a581840e-3697-4350-b980-c66313b1a050" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.ProgramTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProgramConstructorTest" />
+    </UnitTest>
+    <UnitTest name="TitleTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="5c9f807c-477a-4cdc-2969-af952d4f311e">
+      <Execution id="47b3db38-4068-420c-bf70-0e336f403d4c" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TitleTest" />
+    </UnitTest>
+    <UnitTest name="EditTest" storage="c:\pluralsight\myfiles\s3\pluralsight-mediasource\john-brown\modules\dpl-state\state\workitemsimple.tests\bin\debug\workitemsimple.tests.dll" id="b2e5b52e-c58d-cca5-db8a-04c7ac8eca7a">
+      <Execution id="5e0d44ac-e46b-4e7f-acf0-d5116f023055" />
+      <TestMethod codeBase="C:/Pluralsight/MyFiles/S3/pluralsight-mediasource/john-brown/modules/dpl-state/State/WorkItemSimple.Tests/bin/Debug/WorkItemSimple.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WorkItemSimple.Tests.WorkItemTest, WorkItemSimple.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b7f6dfdb-3723-c809-e08a-804ee6a6ba3b" executionId="22aa3656-ed3c-48e5-9fb6-34642cef3a66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84780e3c-644b-f0c9-9967-3065a833a3f0" executionId="dae5ef65-0e79-409c-a75f-91994f09d6c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c068555-f198-0487-55d1-ca2d8312450e" executionId="9e5a2ecd-79cf-4443-a844-f4286f4b92dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df176653-3168-2e8c-7053-a297e4360292" executionId="6f46dc4a-d5a3-4615-9035-9b5a154be84c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e57238b-d3ec-9180-a785-92e2df5617cc" executionId="401c962c-34b3-4125-b3a0-5b3e135316bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9825a538-a645-f297-fc64-d65305038cc9" executionId="a581840e-3697-4350-b980-c66313b1a050" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="169719bd-cf9c-d170-143d-90623ee1fc70" executionId="da733707-591d-48d9-8182-9dbec7e0e616" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="685e60cf-66a2-1642-1257-21df7b3e9785" executionId="b0c71a11-fcb8-448b-8817-97dad45636d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="787300c5-c0c5-a677-77c0-fa2d272085d6" executionId="52f5354f-241d-44b1-8d93-b8423f69bec1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edda0a2b-6f4d-d5e8-f21d-af792c033a2d" executionId="2ef101ef-f434-4b01-bfd8-32a6b5f8f5cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2e5b52e-c58d-cca5-db8a-04c7ac8eca7a" executionId="5e0d44ac-e46b-4e7f-acf0-d5116f023055" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4003831-8ec5-73a4-8bde-6a2b68c4ed61" executionId="b3115aba-dd7c-4e84-bba4-4120097754f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b74310b1-3c1e-5a19-d460-b4836134a1a3" executionId="56cfa63a-34fd-4c8c-8d83-1f960668febb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e544f35-5f3f-439c-16f7-5df1d0515dfb" executionId="2368828b-f6f4-4ab1-8593-829cad316f0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9c8dee1-b45b-deb1-8e45-c408e8b7f05c" executionId="251fb3b7-554e-4317-ab93-4924c120d294" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74741d02-2200-dfb2-206b-82eade2e48fd" executionId="13962928-c8ff-4f3a-a911-96677184bd09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="333cadb6-3d97-02d3-48d3-0501c80bb6a7" executionId="c6f42823-f4fd-4d34-8477-39b240df936c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a3fbc8c-27e6-c24f-eb3b-6f9cacd9868e" executionId="0df518c3-36e0-41be-b07a-fd58e067522f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8392b45-02b7-9bed-df18-50ade92abdfa" executionId="26d06720-6dff-47b9-8117-85a5772044d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27409ce1-83ae-053c-1f87-9ac026ec6576" executionId="ca894213-138b-4f8f-9f2c-e2ba259e3f53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c9f807c-477a-4cdc-2969-af952d4f311e" executionId="47b3db38-4068-420c-bf70-0e336f403d4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="22aa3656-ed3c-48e5-9fb6-34642cef3a66" testId="b7f6dfdb-3723-c809-e08a-804ee6a6ba3b" testName="XmlUnitOfWorkConstructorTest" computerName="BAMBOO" duration="00:00:00.0399496" startTime="2010-12-15T23:25:45.6757347-05:00" endTime="2010-12-15T23:25:45.9847523-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22aa3656-ed3c-48e5-9fb6-34642cef3a66">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method WorkItemSimple.Tests.XmlUnitOfWorkTest.XmlUnitOfWorkConstructorTest threw exception: 
+System.ArgumentException: The string was not recognized as a valid Uri.
+Parameter name: inputUri</Message>
+          <StackTrace>    at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at WorkItemSimple.XmlUnitOfWork.ReadXml() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\XmlUnitOfWork.cs:line 57
+   at WorkItemSimple.XmlUnitOfWork..ctor(String fileName) in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\XmlUnitOfWork.cs:line 18
+   at WorkItemSimple.Tests.XmlUnitOfWorkTest.XmlUnitOfWorkConstructorTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\XmlUnitOfWorkTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dae5ef65-0e79-409c-a75f-91994f09d6c8" testId="84780e3c-644b-f0c9-9967-3065a833a3f0" testName="CommitTest" computerName="BAMBOO" duration="00:00:00.0015300" startTime="2010-12-15T23:25:45.9877525-05:00" endTime="2010-12-15T23:25:45.9947529-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dae5ef65-0e79-409c-a75f-91994f09d6c8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method WorkItemSimple.Tests.XmlUnitOfWorkTest.CommitTest threw exception: 
+System.ArgumentException: The string was not recognized as a valid Uri.
+Parameter name: inputUri</Message>
+          <StackTrace>    at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at WorkItemSimple.XmlUnitOfWork.ReadXml() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\XmlUnitOfWork.cs:line 57
+   at WorkItemSimple.XmlUnitOfWork..ctor(String fileName) in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\XmlUnitOfWork.cs:line 18
+   at WorkItemSimple.Tests.XmlUnitOfWorkTest.CommitTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\XmlUnitOfWorkTest.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9e5a2ecd-79cf-4443-a844-f4286f4b92dd" testId="3c068555-f198-0487-55d1-ca2d8312450e" testName="ReadXmlTest" computerName="BAMBOO" duration="00:00:00.0069951" startTime="2010-12-15T23:25:45.9987531-05:00" endTime="2010-12-15T23:25:46.0097538-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e5a2ecd-79cf-4443-a844-f4286f4b92dd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method WorkItemSimple.Tests.XmlUnitOfWorkTest.ReadXmlTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at WorkItemSimple.XmlUnitOfWork_Accessor.ReadXml()
+   at WorkItemSimple.Tests.XmlUnitOfWorkTest.ReadXmlTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\XmlUnitOfWorkTest.cs:line 103
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f46dc4a-d5a3-4615-9035-9b5a154be84c" testId="df176653-3168-2e8c-7053-a297e4360292" testName="EntitiesTest" computerName="BAMBOO" duration="00:00:00.0017909" startTime="2010-12-15T23:25:46.0117539-05:00" endTime="2010-12-15T23:25:46.0177542-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f46dc4a-d5a3-4615-9035-9b5a154be84c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method WorkItemSimple.Tests.XmlUnitOfWorkTest.EntitiesTest threw exception: 
+System.ArgumentException: The string was not recognized as a valid Uri.
+Parameter name: inputUri</Message>
+          <StackTrace>    at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at WorkItemSimple.XmlUnitOfWork.ReadXml() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\XmlUnitOfWork.cs:line 57
+   at WorkItemSimple.XmlUnitOfWork..ctor(String fileName) in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\XmlUnitOfWork.cs:line 18
+   at WorkItemSimple.Tests.XmlUnitOfWorkTest.EntitiesTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\XmlUnitOfWorkTest.cs:line 115
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="401c962c-34b3-4125-b3a0-5b3e135316bd" testId="0e57238b-d3ec-9180-a785-92e2df5617cc" testName="MainTest" computerName="BAMBOO" duration="00:00:00.0037164" startTime="2010-12-15T23:25:46.0197543-05:00" endTime="2010-12-15T23:25:46.0277548-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="401c962c-34b3-4125-b3a0-5b3e135316bd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method WorkItemSimple.Tests.ProgramTest.MainTest threw exception: 
+System.IO.FileNotFoundException: Could not find file 'C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\TestResults\Stewart_BAMBOO 2010-12-15 23_25_45\Out\data.xml'.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at WorkItemSimple.XmlUnitOfWork.ReadXml() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\XmlUnitOfWork.cs:line 57
+   at WorkItemSimple.XmlUnitOfWork..ctor(String fileName) in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\XmlUnitOfWork.cs:line 18
+   at WorkItemSimple.Program.Main(String[] args) in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\Program.cs:line 15
+   at WorkItemSimple.Tests.ProgramTest.MainTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\ProgramTest.cs:line 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a581840e-3697-4350-b980-c66313b1a050" testId="9825a538-a645-f297-fc64-d65305038cc9" testName="ProgramConstructorTest" computerName="BAMBOO" duration="00:00:00.0017580" startTime="2010-12-15T23:25:46.0297549-05:00" endTime="2010-12-15T23:25:46.0357552-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a581840e-3697-4350-b980-c66313b1a050">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at WorkItemSimple.Tests.ProgramTest.ProgramConstructorTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\ProgramTest.cs:line 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="da733707-591d-48d9-8182-9dbec7e0e616" testId="169719bd-cf9c-d170-143d-90623ee1fc70" testName="PrintUsageTest" computerName="BAMBOO" duration="00:00:00.0011602" startTime="2010-12-15T23:25:46.0387554-05:00" endTime="2010-12-15T23:25:46.0437557-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da733707-591d-48d9-8182-9dbec7e0e616">
+      <Output>
+        <StdOut>Usage: state &lt;command&gt; &lt;id&gt; &lt;title&gt; &lt;description&gt;
+Commands: create, edit, open, resolve, verify, print
+States: Proposed, Active, Resolved, Closed</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.ProgramTest.PrintUsageTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\ProgramTest.cs:line 96
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0c71a11-fcb8-448b-8817-97dad45636d7" testId="685e60cf-66a2-1642-1257-21df7b3e9785" testName="WorkItemConstructorTest" computerName="BAMBOO" duration="00:00:00.0008580" startTime="2010-12-15T23:25:46.0457558-05:00" endTime="2010-12-15T23:25:46.0507561-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0c71a11-fcb8-448b-8817-97dad45636d7">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.WorkItemConstructorTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="52f5354f-241d-44b1-8d93-b8423f69bec1" testId="787300c5-c0c5-a677-77c0-fa2d272085d6" testName="CreateTest" computerName="BAMBOO" duration="00:00:00.0017132" startTime="2010-12-15T23:25:46.0537563-05:00" endTime="2010-12-15T23:25:46.0597566-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52f5354f-241d-44b1-8d93-b8423f69bec1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method WorkItemSimple.Tests.WorkItemTest.CreateTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at WorkItemSimple.WorkItem.Create() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItem.cs:line 21
+   at WorkItemSimple.Tests.WorkItemTest.CreateTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 86
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ef101ef-f434-4b01-bfd8-32a6b5f8f5cf" testId="edda0a2b-6f4d-d5e8-f21d-af792c033a2d" testName="DeleteTest" computerName="BAMBOO" duration="00:00:00.0008714" startTime="2010-12-15T23:25:46.0617567-05:00" endTime="2010-12-15T23:25:46.0677571-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ef101ef-f434-4b01-bfd8-32a6b5f8f5cf">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.DeleteTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5e0d44ac-e46b-4e7f-acf0-d5116f023055" testId="b2e5b52e-c58d-cca5-db8a-04c7ac8eca7a" testName="EditTest" computerName="BAMBOO" duration="00:00:00.0008407" startTime="2010-12-15T23:25:46.0707572-05:00" endTime="2010-12-15T23:25:46.0757575-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e0d44ac-e46b-4e7f-acf0-d5116f023055">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.EditTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 112
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b3115aba-dd7c-4e84-bba4-4120097754f1" testId="d4003831-8ec5-73a4-8bde-6a2b68c4ed61" testName="FindByIdTest" computerName="BAMBOO" duration="00:00:00.0014750" startTime="2010-12-15T23:25:46.0777576-05:00" endTime="2010-12-15T23:25:46.0827579-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3115aba-dd7c-4e84-bba4-4120097754f1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method WorkItemSimple.Tests.WorkItemTest.FindByIdTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at WorkItemSimple.WorkItem.FindById(Int32 id) in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItem.cs:line 26
+   at WorkItemSimple.Tests.WorkItemTest.FindByIdTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 124
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="56cfa63a-34fd-4c8c-8d83-1f960668febb" testId="b74310b1-3c1e-5a19-d460-b4836134a1a3" testName="InitTest" computerName="BAMBOO" duration="00:00:00.0006571" startTime="2010-12-15T23:25:46.0857581-05:00" endTime="2010-12-15T23:25:46.0907584-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56cfa63a-34fd-4c8c-8d83-1f960668febb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.InitTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 137
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2368828b-f6f4-4ab1-8593-829cad316f0f" testId="4e544f35-5f3f-439c-16f7-5df1d0515dfb" testName="OpenTest" computerName="BAMBOO" duration="00:00:00.0007579" startTime="2010-12-15T23:25:46.0927585-05:00" endTime="2010-12-15T23:25:46.0977588-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2368828b-f6f4-4ab1-8593-829cad316f0f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.OpenTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 148
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="251fb3b7-554e-4317-ab93-4924c120d294" testId="c9c8dee1-b45b-deb1-8e45-c408e8b7f05c" testName="PrintTest" computerName="BAMBOO" duration="00:00:00.0010044" startTime="2010-12-15T23:25:46.0997589-05:00" endTime="2010-12-15T23:25:46.1047592-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="251fb3b7-554e-4317-ab93-4924c120d294">
+      <Output>
+        <StdOut>Id:	0
+State:	
+Title:	
+ Desc:</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.PrintTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 159
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13962928-c8ff-4f3a-a911-96677184bd09" testId="74741d02-2200-dfb2-206b-82eade2e48fd" testName="ResolveTest" computerName="BAMBOO" duration="00:00:00.0007124" startTime="2010-12-15T23:25:46.1067593-05:00" endTime="2010-12-15T23:25:46.1117596-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13962928-c8ff-4f3a-a911-96677184bd09">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.ResolveTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 170
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c6f42823-f4fd-4d34-8477-39b240df936c" testId="333cadb6-3d97-02d3-48d3-0501c80bb6a7" testName="VerifyTest" computerName="BAMBOO" duration="00:00:00.0007832" startTime="2010-12-15T23:25:46.1137597-05:00" endTime="2010-12-15T23:25:46.1187600-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6f42823-f4fd-4d34-8477-39b240df936c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.VerifyTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 181
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0df518c3-36e0-41be-b07a-fd58e067522f" testId="5a3fbc8c-27e6-c24f-eb3b-6f9cacd9868e" testName="DescriptionTest" computerName="BAMBOO" duration="00:00:00.0007460" startTime="2010-12-15T23:25:46.1207601-05:00" endTime="2010-12-15T23:25:46.1257604-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0df518c3-36e0-41be-b07a-fd58e067522f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.DescriptionTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 196
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="26d06720-6dff-47b9-8117-85a5772044d0" testId="d8392b45-02b7-9bed-df18-50ade92abdfa" testName="IdTest" computerName="BAMBOO" duration="00:00:00.0013145" startTime="2010-12-15T23:25:46.1277605-05:00" endTime="2010-12-15T23:25:46.1327608-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26d06720-6dff-47b9-8117-85a5772044d0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.IdTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 211
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ca894213-138b-4f8f-9f2c-e2ba259e3f53" testId="27409ce1-83ae-053c-1f87-9ac026ec6576" testName="StateTest" computerName="BAMBOO" duration="00:00:00.0006672" startTime="2010-12-15T23:25:46.1357610-05:00" endTime="2010-12-15T23:25:46.1397612-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca894213-138b-4f8f-9f2c-e2ba259e3f53">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.StateTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 226
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="47b3db38-4068-420c-bf70-0e336f403d4c" testId="5c9f807c-477a-4cdc-2969-af952d4f311e" testName="TitleTest" computerName="BAMBOO" duration="00:00:00.0007257" startTime="2010-12-15T23:25:46.1427614-05:00" endTime="2010-12-15T23:25:46.1477616-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47b3db38-4068-420c-bf70-0e336f403d4c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at WorkItemSimple.Tests.WorkItemTest.TitleTest() in C:\Pluralsight\MyFiles\S3\pluralsight-mediasource\john-brown\modules\dpl-state\State\WorkItemSimple.Tests\WorkItemTest.cs:line 241
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,354 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="14" />
+      <Item value="string" priority="23" />
+      <Item value="if" priority="19" />
+      <Item value="args" priority="13" />
+      <Item value="try" priority="2" />
+      <Item value="catch" priority="3" />
+      <Item value="ExecutionEngineException`0" priority="0" />
+      <Item value="Count`1" priority="4" />
+      <Item value="cmd" priority="4" />
+      <Item value="int" priority="5" />
+      <Item value="id" priority="3" />
+      <Item value="Console`0" priority="8" />
+      <Item value="new" priority="20" />
+      <Item value="return" priority="13" />
+      <Item value="switch" priority="2" />
+      <Item value="case" priority="11" />
+      <Item value="break" priority="10" />
+      <Item value="ResolveEventArgs`0" priority="1" />
+      <Item value="XmlRepository" priority="3" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="2" />
+      <Item value="Xml" priority="0" />
+      <Item value="XmlDocument`0" priority="1" />
+      <Item value="xmlData" priority="6" />
+      <Item value="XmlDocument" priority="0" />
+      <Item value="fileName" priority="9" />
+      <Item value="predicate" priority="1" />
+      <Item value="private" priority="12" />
+      <Item value="newEntity" priority="3" />
+      <Item value="XmlElement`0" priority="0" />
+      <Item value="XmlElement" priority="0" />
+      <Item value="false" priority="3" />
+      <Item value="null" priority="2" />
+      <Item value="WorkItem`0" priority="30" />
+      <Item value="workItem" priority="20" />
+      <Item value="WorkItem" priority="2" />
+      <Item value="data" priority="0" />
+      <Item value="static" priority="5" />
+      <Item value="var" priority="9" />
+      <Item value="DataList" priority="2" />
+      <Item value="x" priority="6" />
+      <Item value="maxId" priority="1" />
+      <Item value="Domain" priority="0" />
+      <Item value="IUnitOfWork`0" priority="3" />
+      <Item value="XmlUnitOfWork`0" priority="3" />
+      <Item value="workItems" priority="4" />
+      <Item value="XmlRepository&lt;WorkItem&gt;" priority="0" />
+      <Item value="this" priority="10" />
+      <Item value="unitOfWork" priority="7" />
+      <Item value="IRepository" priority="0" />
+      <Item value="List&lt;T&gt;" priority="0" />
+      <Item value="count" priority="2" />
+      <Item value="DynamicXml`0" priority="0" />
+      <Item value="DynamicXml" priority="0" />
+      <Item value="dataFileName" priority="0" />
+      <Item value="dxml" priority="3" />
+      <Item value="dynamic" priority="0" />
+      <Item value="foreach" priority="3" />
+      <Item value="wi" priority="18" />
+      <Item value="XDocument" priority="0" />
+      <Item value="xdoc" priority="0" />
+      <Item value="WorkItems" priority="1" />
+      <Item value="XElement`0" priority="0" />
+      <Item value="XmlWriterSettings" priority="0" />
+      <Item value="writer" priority="5" />
+      <Item value="_xml" priority="0" />
+      <Item value="XmlException`0" priority="1" />
+      <Item value="xmlfromlist" priority="1" />
+      <Item value="in" priority="0" />
+      <Item value="AccessViolationException`0" priority="0" />
+      <Item value="Id" priority="1" />
+      <Item value="Title" priority="1" />
+      <Item value="r" priority="1" />
+      <Item value="Description" priority="0" />
+      <Item value="ReadXml`0" priority="0" />
+      <Item value="void" priority="6" />
+      <Item value="inputWorkItem" priority="3" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="ex" priority="0" />
+      <Item value="default" priority="2" />
+      <Item value="PrintUsage`0" priority="2" />
+      <Item value="doc" priority="1" />
+      <Item value="StateProcedure`0" priority="0" />
+      <Item value="Proposed`0" priority="1" />
+      <Item value="saved" priority="1" />
+      <Item value="input" priority="0" />
+      <Item value="WorkItemAdvanced" priority="0" />
+      <Item value="Print`0" priority="0" />
+      <Item value="savedWorkItem" priority="0" />
+      <Item value="States" priority="0" />
+      <Item value="BaseState`0" priority="0" />
+      <Item value="ICommands`0" priority="1" />
+      <Item value="IEntity`0" priority="4" />
+      <Item value="work" priority="0" />
+      <Item value="title" priority="4" />
+      <Item value="desc" priority="2" />
+      <Item value="internal" priority="0" />
+      <Item value="IDisposable`0" priority="0" />
+      <Item value="ValueType`0" priority="0" />
+      <Item value="State" priority="2" />
+      <Item value="state" priority="5" />
+      <Item value="owner" priority="5" />
+      <Item value="value" priority="0" />
+      <Item value="stateCommands" priority="4" />
+      <Item value="Assert`0" priority="2" />
+      <Item value="target" priority="0" />
+      <Item value="FileStyleUriParser`0" priority="1" />
+      <Item value="IO" priority="1" />
+      <Item value="File`0" priority="4" />
+      <Item value="exists" priority="0" />
+      <Item value="fileHandle" priority="0" />
+      <Item value="Commit`0" priority="0" />
+      <Item value="actual" priority="2" />
+      <Item value="forr" priority="0" />
+      <Item value="uow" priority="2" />
+      <Item value="XmlUnitOfWork" priority="0" />
+      <Item value="as" priority="1" />
+      <Item value="TestInitialize" priority="0" />
+      <Item value="expected" priority="1" />
+      <Item value="true" priority="0" />
+      <Item value="canDelete" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="7" />
+      <Item value="Write`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToLower`0" priority="3" />
+      <Item value="Where`1" priority="0" />
+      <Item value="All`1" priority="0" />
+      <Item value="ToList`1" priority="1" />
+      <Item value="Split`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlDocument">
+      <Item value="Load`0" priority="0" />
+      <Item value="InnerXml" priority="5" />
+      <Item value="OuterXml" priority="2" />
+      <Item value="SelectNodes`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="1" />
+      <Item value="AsQueryable`0" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNodeList">
+      <Item value="AsQueryable`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:State.Domain.WorkItem">
+      <Item value="Id" priority="6" />
+      <Item value="State" priority="10" />
+      <Item value="Title" priority="5" />
+      <Item value="Description" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:State.Domain.IRepository`1">
+      <Item value="Add`0" priority="1" />
+      <Item value="FindAll`0" priority="1" />
+      <Item value="FindById`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Where`1" priority="1" />
+      <Item value="Max`2" priority="0" />
+      <Item value="Count`1" priority="0" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:T">
+      <Item value="Id" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:State.Data.XmlUnitOfWork">
+      <Item value="workItems" priority="0" />
+      <Item value="dataFileName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:State.Domain.IUnitOfWork">
+      <Item value="WorkItems" priority="1" />
+      <Item value="Commit`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:State.Data.XmlRepository`1">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XDocument">
+      <Item value="WriteTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.XmlWriter">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlWriter">
+      <Item value="WriteStartAttribute`0" priority="0" />
+      <Item value="WriteEndElement`0" priority="1" />
+      <Item value="WriteValue`0" priority="0" />
+      <Item value="WriteRaw`0" priority="0" />
+      <Item value="WriteElementString`0" priority="0" />
+      <Item value="WriteStartElement`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="WorkItems" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XElement">
+      <Item value="Element`0" priority="1" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WorkItemDomain.WorkItem">
+      <Item value="Description" priority="3" />
+      <Item value="Id" priority="2" />
+      <Item value="Title" priority="1" />
+      <Item value="State" priority="1" />
+      <Item value="Edit`0" priority="0" />
+      <Item value="Print`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WorkItemDomain.WorkItem">
+      <Item value="Init`0" priority="0" />
+      <Item value="FindById`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WorkItemAdvanced.States.Proposed">
+      <Item value="owner" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WorkItemAdvanced.ICommands">
+      <Item value="Print`0" priority="0" />
+      <Item value="Resolve`0" priority="1" />
+      <Item value="Verify`0" priority="1" />
+      <Item value="Edit`0" priority="0" />
+      <Item value="Open`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsNotNull`0" priority="1" />
+      <Item value="IsTrue`0" priority="0" />
+      <Item value="Equals`0" priority="1" />
+      <Item value="AreEqual`0" priority="0" />
+      <Item value="AreNotEqual`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WorkItemAdvanced.XmlUnitOfWork">
+      <Item value="Entities" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WorkItemDomain.IRepository`1">
+      <Item value="Add`0" priority="1" />
+      <Item value="FindById`0" priority="1" />
+      <Item value="Remove`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists`0" priority="1" />
+      <Item value="Create`0" priority="0" />
+      <Item value="Delete`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileStream">
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WorkItemAdvanced.WorkItem">
+      <Item value="Description" priority="3" />
+      <Item value="State" priority="4" />
+      <Item value="Id" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WorkItemAdvanced.WorkItem">
+      <Item value="Init`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WorkItemDomain.IUnitOfWork">
+      <Item value="Entities" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E9FD765A-521C-4BD5-AAF7-21FDEF4FD868/f:data.xml" caret="65" fromTop="2" />
+      <File id="E9FD765A-521C-4BD5-AAF7-21FDEF4FD868/f:App.Config" caret="0" fromTop="0" />
+      <File id="52318CB1-5816-4B83-A968-15AB6D34C804/f:IRepository.cs" caret="0" fromTop="0" />
+      <File id="52318CB1-5816-4B83-A968-15AB6D34C804/f:IUnitOfWork.cs" caret="0" fromTop="0" />
+      <File id="25488DA3-A70E-4D02-8C4C-AE4F73F9CD84/f:WorkItemTest.cs" caret="1207" fromTop="36" />
+      <File id="25488DA3-A70E-4D02-8C4C-AE4F73F9CD84/f:XmlUnitOfWorkTest.cs" caret="234" fromTop="11" />
+      <File id="E1B840BA-B094-4225-9843-1879E9D094BB/f:XmlUnitOfWorkTest.cs" caret="1678" fromTop="20" />
+      <File id="E9FD765A-521C-4BD5-AAF7-21FDEF4FD868/f:XmlUnitOfWork.cs" caret="480" fromTop="8" />
+      <File id="52318CB1-5816-4B83-A968-15AB6D34C804/f:XmlRepository.cs" caret="310" fromTop="15" />
+      <File id="E1B840BA-B094-4225-9843-1879E9D094BB/f:WorkItemTest.cs" caret="324" fromTop="13" />
+      <File id="52318CB1-5816-4B83-A968-15AB6D34C804/f:IEntity.cs" caret="47" fromTop="2" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/f:ICommands.cs" caret="156" fromTop="9" />
+      <File id="E9FD765A-521C-4BD5-AAF7-21FDEF4FD868/f:WorkItem.cs" caret="2566" fromTop="12" />
+      <File id="E9FD765A-521C-4BD5-AAF7-21FDEF4FD868/f:Program.cs" caret="1661" fromTop="50" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Resolved.cs" caret="668" fromTop="11" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Closed.cs" caret="682" fromTop="10" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Proposed.cs" caret="676" fromTop="21" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:BaseState.cs" caret="407" fromTop="9" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Active.cs" caret="579" fromTop="2" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/f:XmlUnitOfWork.cs" caret="771" fromTop="1" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/f:Program.cs" caret="1123" fromTop="7" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/f:WorkItem.cs" caret="1370" fromTop="57" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Resolved.cs" caret="326" fromTop="11" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Resolved.cs" caret="414" fromTop="11" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Active.cs" caret="322" fromTop="10" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Active.cs" caret="396" fromTop="15" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Proposed.cs" caret="330" fromTop="21" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Proposed.cs" caret="340" fromTop="16" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Closed.cs" caret="306" fromTop="17" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Active.cs" caret="15" fromTop="1" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Active.cs" caret="306" fromTop="11" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Proposed.cs" caret="863" fromTop="14" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Proposed.cs" caret="863" fromTop="22" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Proposed.cs" caret="724" fromTop="20" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Proposed.cs" caret="842" fromTop="17" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Active.cs" caret="889" fromTop="25" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Resolved.cs" caret="656" fromTop="3" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Resolved.cs" caret="788" fromTop="8" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Closed.cs" caret="795" fromTop="11" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Resolved.cs" caret="897" fromTop="12" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/f:WorkItem.cs" caret="1201" fromTop="20" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/f:WorkItem.cs" caret="1495" fromTop="20" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/f:Program.cs" caret="1588" fromTop="18" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/f:Program.cs" caret="642" fromTop="16" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/f:WorkItem.cs" caret="1751" fromTop="13" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Proposed.cs" caret="690" fromTop="10" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Active.cs" caret="775" fromTop="12" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Closed.cs" caret="682" fromTop="10" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Resolved.cs" caret="783" fromTop="15" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/d:States/f:Proposed.cs" caret="405" fromTop="10" />
+      <File id="132ED413-B446-4B81-8210-F9128ED3B922/f:WorkItem.cs" caret="1145" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <UnitTestRunnerMSTest>
+    <RunTestsEvenIfCodeCoverageEnabled>True</RunTestsEvenIfCodeCoverageEnabled>
+  </UnitTestRunnerMSTest>
+</Configuration>

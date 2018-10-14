@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Stewart/AppData/Local/Microsoft/VisualStudio/10.0/Extensions/Microsoft/Visualization and Modeling Feature Pack/1.0/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log">
+  <Message Timestamp="2010-12-28T00:47:29" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced' -  (Package)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::ICommands' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States' -  (Package)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Medium" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Active' -  (Class)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Active::Active' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Active::Active::owner' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Active::Delete' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Active::Edit' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Active::Edit::desc' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Active::Edit::title' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Active::owner' -  (Property)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Active::Print' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Active::SetState' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Active::SetState::state' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Medium" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::BaseState' -  (Class)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::BaseState::BaseState' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::BaseState::Print' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::BaseState::Print::wi' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Medium" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Closed' -  (Class)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Closed::Closed' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Closed::Closed::owner' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Closed::Delete' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Closed::Edit' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Closed::Edit::desc' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Closed::Edit::title' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Closed::owner' -  (Property)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Closed::Print' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Closed::SetState' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Closed::SetState::state' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Medium" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Proposed' -  (Class)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Proposed::Delete' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Proposed::Edit' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Proposed::Edit::desc' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Proposed::Edit::title' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Proposed::owner' -  (Property)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Proposed::Print' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Proposed::Proposed' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Proposed::Proposed::owner' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Proposed::SetState' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Proposed::SetState::state' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Medium" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Resolved' -  (Class)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Resolved::Delete' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Resolved::Edit' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Resolved::Edit::desc' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Resolved::Edit::title' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Resolved::owner' -  (Property)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Resolved::Print' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Resolved::Resolved' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Resolved::Resolved::owner' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Resolved::SetState' -  (Operation)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::States::Resolved::SetState::state' -  (Parameter)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'WorkItemModels::WorkItemAdvanced::WorkItem' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: WorkItemModels::WorkItemAdvanced::States::Proposed to WorkItemModels::WorkItemAdvanced::ICommands (InterfaceRealization)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: WorkItemModels::WorkItemAdvanced::States::Proposed to WorkItemModels::WorkItemAdvanced::States::BaseState (Generalization)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: WorkItemModels::WorkItemAdvanced::States::Resolved to WorkItemModels::WorkItemAdvanced::ICommands (InterfaceRealization)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: WorkItemModels::WorkItemAdvanced::States::Resolved to WorkItemModels::WorkItemAdvanced::States::BaseState (Generalization)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: WorkItemModels::WorkItemAdvanced::States::Active to WorkItemModels::WorkItemAdvanced::ICommands (InterfaceRealization)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: WorkItemModels::WorkItemAdvanced::States::Active to WorkItemModels::WorkItemAdvanced::States::BaseState (Generalization)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: WorkItemModels::WorkItemAdvanced::States::Closed to WorkItemModels::WorkItemAdvanced::ICommands (InterfaceRealization)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: WorkItemModels::WorkItemAdvanced::States::Closed to WorkItemModels::WorkItemAdvanced::States::BaseState (Generalization)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: WorkItemModels::WorkItemAdvanced::WorkItem to WorkItemModels::WorkItemAdvanced::ICommands (InterfaceRealization)" />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="High" Text="(5) type(s) fully reverse engineered." />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="High" Text="(2) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2010-12-28T00:47:31" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
