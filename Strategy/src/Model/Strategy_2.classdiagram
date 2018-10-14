@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="500bee88-19c6-4374-8d89-e2fc829b3139" name="Strategy_2" linkedPackageId="6e2f76b1-ac28-4f4d-8f7a-ac9e5bd616c1" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c12660a2-bfc9-4ed2-932d-1af17bd83c93">
+      <profileInstance Id="800500d0-05a1-4923-8297-d327ef9c0a8f" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="594da723-eab2-4607-a2dc-77a43704c4f9">
+      <profileInstance Id="cbf96fbe-0cad-4202-a713-2319d37bef53" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8f4101a9-4858-409a-b205-8dba698141c2" name="ShippingCostCalculatorService" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9e321b20-ed73-4c0b-bf43-326d6c90f3ef" />
+        <suppliersInternal>
+          <dependency Id="75e5cd0b-49ff-45aa-8d88-0c7639141cee">
+            <interfaceMoniker Id="2f120b34-5eaa-4e95-b51a-6a9ab12d1d6a" LastKnownName="IShippingCostStrategy" />
+            <elementDefinition Id="cf3df587-a101-4b09-9279-edfd60a48cc6" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="2556f058-3e5c-43de-a696-a40859710bfc" name="CalculateShippingCost" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e21a59c6-782e-4d22-b91a-7e05c4503c3d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0c75a48b-468f-4dd2-9fe5-c005bc9f280b" name="Order" direction="In" isUnique="false">
+                  <elementDefinition Id="52eec1eb-97aa-41a0-a257-664a71f80030" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="49e503cd-ff3d-4e15-88b7-32f065cb077c" name="ShippingCostCalculatorService" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="ffcaa212-fd10-4f4d-a49c-f196c8cf620a" name="create" profile="StandardProfileL2">
+                <elementDefinition Id="21d85635-c2bb-4541-bb0b-976e25eaa0da" />
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9cc15106-9fbe-4126-b6a7-1e835bed0a45" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cb1432b9-96f5-4401-98ec-1b1d0a558ddc" direction="In">
+                  <elementDefinition Id="1740740f-8ef4-4f73-89c0-47af8988091a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="56a922fc-372f-4ace-baf2-45ec12ab1fc3" LastKnownName="IShippingCostStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="2f120b34-5eaa-4e95-b51a-6a9ab12d1d6a" name="IShippingCostStrategy" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="494f2315-52e1-4910-900f-e849e08064e0" />
+        <ownedOperations>
+          <operation Id="909655cb-a87a-4dad-9898-b9fbf9a40b3c" name="Calculate" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="48253df4-e5a0-4cf5-9529-f252d430580c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9cde8fb3-6a71-44a0-a719-e15bd2b9b3a0" name="Order" direction="In" isUnique="false">
+                  <elementDefinition Id="44c7b4ee-0a17-492e-abfe-1473da1cc496" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ff4d5e06-5f94-43c1-b673-0296d3be273b" name="UPSCalculator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ed67cb87-74a1-4ace-b885-93317dc2fb90" />
+        <suppliersInternal>
+          <interfaceRealization Id="bd3031bc-7966-48fe-b6a9-1944efd24903">
+            <interfaceMoniker Id="2f120b34-5eaa-4e95-b51a-6a9ab12d1d6a" LastKnownName="IShippingCostStrategy" />
+            <elementDefinition Id="0d87bfa7-44b6-456e-945f-03b0b56739f0" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="5736b875-6389-4b4b-b574-a1f38d9bb200" name="Calculate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bb1704bf-0c5c-486a-8c34-253cdab94e16" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a6dd2a53-ca76-464e-a5d7-b398aad395ed" name="Order" direction="In" isUnique="false">
+                  <elementDefinition Id="7a1c3e7f-b352-430c-9d17-411d528f01aa" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="41a20d24-d3b3-4392-885f-4c9ba026d23a" name="FedExCalculator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2dc58507-ceb5-4810-af36-139e84088976" />
+        <suppliersInternal>
+          <interfaceRealization Id="c5685ff2-dd4e-4d79-886c-6a5a079018ae">
+            <interfaceMoniker Id="2f120b34-5eaa-4e95-b51a-6a9ab12d1d6a" LastKnownName="IShippingCostStrategy" />
+            <elementDefinition Id="354307e4-c3af-4629-925b-88e19b75d164" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="fb04b286-c03a-46bc-bc8c-c518e202c859" name="Calculate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a4997e06-c2bd-41e4-8a41-dee5254fa03a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d9cbb9b3-4168-46f9-8bcd-a44660eaca3b" name="Order" direction="In" isUnique="false">
+                  <elementDefinition Id="d5ceeca4-4606-4b9f-8664-48ab003dd960" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="56a922fc-372f-4ace-baf2-45ec12ab1fc3" name="IShippingCostStrategy" isAbstract="false" isLeaf="false" cachedFullName="PatternModels::IShippingCostStrategy">
+        <elementDefinition Id="494f2315-52e1-4910-900f-e849e08064e0" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="6e2f76b1-ac28-4f4d-8f7a-ac9e5bd616c1" name="PatternModels">
+    <elementDefinition Id="9fe1b56e-fa0e-4a8f-b531-dc931fdaba87" />
+  </package>
+</logicalClassDesignerModel>
