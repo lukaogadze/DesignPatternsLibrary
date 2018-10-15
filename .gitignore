@@ -9,3 +9,4 @@ _ReSharper.*
 Backup
 packages
 UpgradeLog.htm
+*.ReSharper.user
