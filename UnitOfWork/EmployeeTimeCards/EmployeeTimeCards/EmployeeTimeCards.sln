@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeData", "EmployeeData\EmployeeData.csproj", "{0B57154E-1FFA-439B-9776-732DA845ACCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDomain", "EmployeeDomain\EmployeeDomain.csproj", "{6F133CDD-8D46-4A1A-A0C9-C41E88B7F06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeWeb", "EmployeeWeb\EmployeeWeb.csproj", "{2CBCCE10-CF93-4050-95A7-9E0D91802D1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FAFA922C-7866-4032-A07A-6B65F70D64AB}"
+	ProjectSection(SolutionItems) = preProject
+		EmployeeTimeCards.vsmdi = EmployeeTimeCards.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTests", "EmployeeTests\EmployeeTests.csproj", "{95027F36-3D30-4E35-A81D-18C0B92F3CB6}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = EmployeeTimeCards.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B57154E-1FFA-439B-9776-732DA845ACCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B57154E-1FFA-439B-9776-732DA845ACCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B57154E-1FFA-439B-9776-732DA845ACCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B57154E-1FFA-439B-9776-732DA845ACCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F133CDD-8D46-4A1A-A0C9-C41E88B7F06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F133CDD-8D46-4A1A-A0C9-C41E88B7F06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F133CDD-8D46-4A1A-A0C9-C41E88B7F06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F133CDD-8D46-4A1A-A0C9-C41E88B7F06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBCCE10-CF93-4050-95A7-9E0D91802D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBCCE10-CF93-4050-95A7-9E0D91802D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBCCE10-CF93-4050-95A7-9E0D91802D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBCCE10-CF93-4050-95A7-9E0D91802D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95027F36-3D30-4E35-A81D-18C0B92F3CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95027F36-3D30-4E35-A81D-18C0B92F3CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95027F36-3D30-4E35-A81D-18C0B92F3CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95027F36-3D30-4E35-A81D-18C0B92F3CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
