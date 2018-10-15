@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Web.Models.Song>
+
+@{
+    ViewBag.Title = "By Year: " + ViewBag.Year;
+}
+
+<h2>Songs By Year: @ViewBag.Year</h2>
+
+@{ Html.RenderPartial("_Songs", Model); }

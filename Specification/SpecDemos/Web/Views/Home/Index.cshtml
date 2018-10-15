@@ -1,0 +1,85 @@
+﻿@{
+    ViewBag.Title = "Song List";
+}
+@using Newtonsoft.Json.Linq
+@model Web.ViewModels.HomeViewModel
+<h2>Music Library</h2>
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 genres">
+                <h3>Genres</h3>
+                <input type="checkbox" id="allGenres" />All Genres
+                <ul class="nav nav-list">
+                    @foreach (var g in Model.Genres)
+                    {
+                        <li>
+                            <input type="checkbox"
+                                   name="selectedGenres"
+                                   value="@g.Id" id="@g.Id"
+                                   @{if (Model.SelectedGenres.Contains(g))
+                                     {
+                                         <text> checked='checked' </text>
+                                     }
+                                   }/>
+                            <label for="@g.Id">@g.Name</label>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="col-lg-3 artists">
+                <h3>Artists</h3>
+                <input type="checkbox" id="allArtists" />All Artists
+                <ul class="nav nav-list">
+                    @foreach (var a in Model.Artists)
+                    {
+                        <li>
+                            <input type="checkbox"
+                                   name="selectedArtists"
+                                   value="@a" id="@a"
+                                   @{if (Model.SelectedArtists.Contains(a))
+                                     {
+                                         <text> checked='checked' </text>
+                                     }
+                                   }/>
+                            <label for="@a">@a</label>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                Title: @Html.TextBox("titleSearch")
+            </div>
+            <div class="col-lg-2">
+                Min Rating: @Html.DropDownList("minRating", new SelectList(Model.Ratings))
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <input type="submit" name="Filter" value="Filter" />
+            </div>
+            <div class="col-lg-6">
+                Playlist Name: <input type="text" name="PlaylistName"/>
+                <input type="submit" name="Save" value="Save Smartlist"/>
+            </div>
+        </div>
+    </div>
+}
+
+@{ Html.RenderPartial("_Songs", Model.Songs); }
+
+@section scripts
+{
+    <script>
+        $(function () {
+            $('#allGenres').click(function () {
+                $('.genres input:checkbox').not(this).prop('checked', this.checked);
+            });
+            $('#allArtists').click(function () {
+                $('.artists input:checkbox').not(this).prop('checked', this.checked);
+            });
+        });
+        
+    </script>
+}

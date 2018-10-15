@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Web.Models.Song>
+
+@{
+    ViewBag.Title = "Minimum Rating: " + ViewBag.MinRating;
+}
+
+<h2>Minimum Rating: @ViewBag.MinRating</h2>
+
+@{ Html.RenderPartial("_Songs", Model); }

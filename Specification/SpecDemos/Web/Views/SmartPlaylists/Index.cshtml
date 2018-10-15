@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Web.Models.SmartPlaylist>
+
+@{
+    ViewBag.Title = "Smart Playlists";
+}
+
+<h2>Smart Playlists</h2>
+
+@{ Html.RenderPartial("_SmartPlaylists", Model); }

@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Web.Models.SmartPlaylist>
+<table class="table table-striped">
+    <tr>
+        <th>@Html.DisplayNameFor(s => s.Name)</th>
+        <th>@Html.DisplayNameFor(s => s.Json)</th>
+    </tr>
+    @foreach (var playlist in Model)
+    {
+        <tr>
+            <td><a href="/Songs/ByPlaylist?playlistName=@playlist.Name">@Html.DisplayFor(s => playlist.Name)</a></td>
+            <td>@playlist.Json</td>
+        </tr>
+    }
+</table>
+

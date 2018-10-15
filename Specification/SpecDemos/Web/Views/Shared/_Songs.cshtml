@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Web.Models.Song>
+<table class="table table-striped">
+    <tr>
+        <th>@Html.DisplayNameFor(s => s.Artist)</th>
+        <th>@Html.DisplayNameFor(s => s.Title)</th>
+        <th>@Html.DisplayNameFor(s => s.Album)</th>
+        <th>@Html.DisplayNameFor(s => s.Year)</th>
+        <th>@Html.DisplayNameFor(s => s.Length)</th>
+        <th>@Html.DisplayNameFor(s => s.Rating)</th>
+        <th>@Html.DisplayNameFor(s => s.Genres)</th>
+    </tr>
+    @foreach (var song in Model)
+    {
+        <tr>
+            <td><a href="/Songs/ByArtist?artist=@song.Artist">@Html.DisplayFor(s => song.Artist)</a></td>
+            <td>@Html.DisplayFor(s => song.Title)</td>
+            <td><a href="/Songs/ByAlbum?albumId=@song.AlbumId">@Html.DisplayFor(s => song.Album.Title)</a></td>
+            <td><a href="/Songs/ByYear?year=@song.Year">@Html.DisplayFor(s => song.Year)</a></td>
+            <td>@Html.DisplayFor(s => song.Length)</td>
+            <td><a href="/Songs/MinRating?rating=@song.Rating">@Html.DisplayFor(s => song.Rating)</a></td>
+            <td>@string.Join(",", song.Genres.Select(g => g.Name))</td>
+        </tr>
+    }
+</table>
+

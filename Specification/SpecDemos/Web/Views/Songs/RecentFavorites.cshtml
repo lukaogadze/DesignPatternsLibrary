@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Web.Models.Song>
+
+@{
+    ViewBag.Title = "Recent Favorites";
+}
+
+<h2>Recent Favorites</h2>
+
+@{ Html.RenderPartial("_Songs", Model); }
